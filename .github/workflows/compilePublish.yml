@@ -44,26 +44,26 @@ jobs:
           mkdir out/css
           mkdir out/img
           mkdir out/compiled
-          mkdir out/DiscoverWithAI
-          mkdir out/DiscoverWithAI/assets
-          mkdir out/DiscoverWithAI/js
+          mkdir out/DreamSpot
+          mkdir out/DreamSpot/assets
+          mkdir out/DreamSpot/js
       - name: Copy PDF files
         run: cp -a ./CompiledPDF ./out/compiled/
       - name: Copy HTML files
         run: |
           cp -a ./website/index.html ./out/
-          cp -a ./DiscoverWithAI/index.html ./out/DiscoverWithAI
+          cp -a ./DreamSpot/index.html ./out/DreamSpot
       - name: Copy CSS files
         run: |
           cp -a ./website/css ./out/
-          cp -a ./DiscoverWithAI/style.css ./out/DiscoverWithAI
-          cp -a ./DiscoverWithAI/mini.css ./out/DiscoverWithAI
+          cp -a ./DreamSpot/style.css ./out/DreamSpot
+          cp -a ./DreamSpot/mini.css ./out/DreamSpot
       - name: Copy images
         run: |
           cp -a ./website/img ./out/
-          cp -a ./DiscoverWithAI/assets ./out/DiscoverWithAI/
+          cp -a ./DreamSpot/assets ./out/DreamSpot/
       - name: Copy JavaScript files
-        run: cp -a ./DiscoverWithAI/js ./out/DiscoverWithAI/
+        run: cp -a ./DreamSpot/js ./out/DreamSpot/
       - name: Upload Website Artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3

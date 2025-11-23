@@ -26,11 +26,11 @@
   )
   /*align(top + center)[#image("../assets/mage--preview-circle-fill.svg", width: 20%) #text(
       size: 3em,
-    )[*DISCOVER WITH AI*]]
+    )[*DreamSpot*]]
 
   align(horizon + center)[#text(size: 2em)[#title]]
 
-  align(bottom + center)[$copyright$2025 The Discover With AI team]*/
+  align(bottom + center)[$copyright$2025 The DreamSpot team]*/
 
   grid(
   columns: (35%, 65%),
@@ -39,12 +39,13 @@
     #v(2em)
     #align(center)[#image("../assets/img/mage--preview-circle-fill.svg", width: 20%)]
     #v(-1em)
-    #text(size: 3em)[*DISCOVER WITH AI*]
+    #align(center)[#text(size: 3em)[*DreamSpot*]]
+    #align(center)[#v(-1.8em)#text(size: 1em)[*Close your eyes, we map the magic*]]
   ],
   [#move(dy: -1pt)[#rect(height: 47%, width: 100%,fill: orange)]],
   grid.cell(align: right+top, inset: (x: 2em))[#text(3em)[#title]],
   grid.cell()[#place(dy: -2pt)[#rect(height: 5%, width: 100%,fill: orange)]],
-  grid.cell(align: center+horizon)[$copyright$2025 The Discover With AI team]
+  grid.cell(align: center+horizon)[$copyright$2025 The DreamSpot team]
 )
 
   counter(page).update(1)
@@ -97,7 +98,7 @@
             right + horizon
           }
         },
-        [#image("../assets/img/mage--preview-circle-fill.svg")], [#h(0.2em)*Discover With AI*], [*#title*],
+        [#image("../assets/img/mage--preview-circle-fill.svg")], [#h(0.2em)*DreamSpot*], [*#title*],
       )
 
       #line(length: 100%)

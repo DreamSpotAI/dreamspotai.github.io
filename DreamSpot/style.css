@@ -46,15 +46,15 @@ header {
 header h1 {
     color: var(--black);
     font-size: 7.5cqw;
-    letter-spacing: 0.5rem;
+    letter-spacing: 3cqw;
     font-weight: 900;
     text-align: center;
-    text-indent: -1%;
+    text-indent: -3%;
     direction: rtl;
     position: absolute;
     top: -10%;
     left: 50%;
-    transform: translate3d(-50%, -50%, -10px) scale(2, 4);
+    transform: translate3d(-50%, -50%, -10px) scale(2.2, 4);
 
 }
 
@@ -162,6 +162,7 @@ header h1 span {
     display: block;
     width: max-content;
     font-size: 1.4rem;
+    font-weight: 600;
     top: 50%;
     border-radius: 5px;
     right: 2.5rem;
@@ -542,10 +543,10 @@ header h1 span {
     position: fixed;
     color: var(--white);
     text-align: center;
-    bottom: 3%;
+    bottom: -1%;
     z-index: 5;
     left: 50%;
-    font-size: 2cqb;
+    font-size: 2.5cqb;
     font-weight: 800;
     transform: translate(-50%, 100px);
 }
