@@ -193,13 +193,13 @@
     [Assess whether managing travel tickets caused user frustration and validate our hypothesis for the necessity of a feature that simplifies ticket handling.],
   )
 
-  These are the most important questions, but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights. See the #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf")[interviews document] for additional information.
+  These are the most important questions, but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights. See the #link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[interviews document] for additional information.
 
   #pagebreak()
 
   === Interviews <interviews>
 
-  All the made interviews are accessible on the #link("https://dreamspot.github.io/")[project's website], where an _ad hoc_ #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf")[document] can be found.
+  All the made interviews are accessible on the #link("https://dreamspotai.github.io/")[project's website], where an _ad hoc_ #link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[document] can be found.
 
   The team initially started the validation process by conducting interviews on young adults: these are interviews 1 to 7. Some of them partially confuted the initial customers hypothesis: see @pivoting for more detailed information.
 
@@ -216,23 +216,23 @@
       }
     },
     table.header([*Interview*], [*Target and outcome*], [*Key Points*]),
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[Interview #1]], [Young adults, Positive], [Long time to organize, Difficult to keep track of documents],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[Interview #2]], [Young adults, Positive], [Information research difficult, Like to personalize travels, Search for cheapest option, Difficult to keep track of documents],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[Interview #3]], [Young adults, Negative], [Not difficult to search for information, Finding information does not require lot of time, Easy to keep track of documents],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[Interview #4]], [Young adults, Negative], [Not difficult to search for information even for cheap accommodations, Finding information does not require lot of time, Easy to manage documents],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[Interview #5]], [Young adults, Negative], [Not difficult to search for information, Finding information does not require lot of time, Easy to keep track of documents],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[Interview #6]], [Young adults, Positive], [Difficult to find information, Searched for cheapest option, Finding information could be difficult, Difficult to keep track of documents],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Interview #7]], [Young adults, Negative], [Not interested into making itineraries: prefers to delegate, Finding information not difficult, Cheapest option is not a requirement, Nowadays keeping track of documents it is easy],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i8")[Interview #8]], [Adults, Positive], [Love to personalize itineraries but research process takes time, searching the cheapest option is difficult, No difficulties in keeping track of documents],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i9")[Interview #9]], [Adults, Positive], [Difficult to find information, Difficult to find promotions, Lot of time required, Difficult to keep track of documents],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i10")[Interview #10]], [Adults, Positive], [Search for cheapest option, Difficult to search information, Could require time to organize trip, Easy to keep track of documents],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Interview #11]], [Adults, Negative], [Not difficult to search for information even for cheap accommodations, Not much time required, Easy to keep track of information],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i12")[Interview #12]], [Adults, Positive], [Not difficult to find information but activity requires lot of time, Could be difficult to keep track of documents for long travels.],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i13")[Interview #13]], [Adults, Positive], [Finding information is boring and could not show all possibilities, Costs are a problem, Can require some time due to boring process, Document organization could be difficult],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i14")[Interview #14]], [Adults, Positive], [Organizing information could be difficult and time used could be optimize, Document organization could be time-consuming (not efficient)],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i15")[Interview #15]], [Adults, Positive], [Information research process is boring and difficult if not done properly trip could became a loss of money, No difficulties in organizing documents],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i16")[Interview #16]], [Adults, Positive], [Searching information and organization processes require time, Difficult to organize documents],
-    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Interview #17]], [Adults, Positive], [Searching information could be more efficient: can require some time, Not difficult to organize documents.],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[Interview #1]], [Young adults, Positive], [Long time to organize, Difficult to keep track of documents],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[Interview #2]], [Young adults, Positive], [Information research difficult, Like to personalize travels, Search for cheapest option, Difficult to keep track of documents],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[Interview #3]], [Young adults, Negative], [Not difficult to search for information, Finding information does not require lot of time, Easy to keep track of documents],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[Interview #4]], [Young adults, Negative], [Not difficult to search for information even for cheap accommodations, Finding information does not require lot of time, Easy to manage documents],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[Interview #5]], [Young adults, Negative], [Not difficult to search for information, Finding information does not require lot of time, Easy to keep track of documents],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[Interview #6]], [Young adults, Positive], [Difficult to find information, Searched for cheapest option, Finding information could be difficult, Difficult to keep track of documents],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Interview #7]], [Young adults, Negative], [Not interested into making itineraries: prefers to delegate, Finding information not difficult, Cheapest option is not a requirement, Nowadays keeping track of documents it is easy],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i8")[Interview #8]], [Adults, Positive], [Love to personalize itineraries but research process takes time, searching the cheapest option is difficult, No difficulties in keeping track of documents],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i9")[Interview #9]], [Adults, Positive], [Difficult to find information, Difficult to find promotions, Lot of time required, Difficult to keep track of documents],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i10")[Interview #10]], [Adults, Positive], [Search for cheapest option, Difficult to search information, Could require time to organize trip, Easy to keep track of documents],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Interview #11]], [Adults, Negative], [Not difficult to search for information even for cheap accommodations, Not much time required, Easy to keep track of information],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i12")[Interview #12]], [Adults, Positive], [Not difficult to find information but activity requires lot of time, Could be difficult to keep track of documents for long travels.],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i13")[Interview #13]], [Adults, Positive], [Finding information is boring and could not show all possibilities, Costs are a problem, Can require some time due to boring process, Document organization could be difficult],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i14")[Interview #14]], [Adults, Positive], [Organizing information could be difficult and time used could be optimize, Document organization could be time-consuming (not efficient)],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i15")[Interview #15]], [Adults, Positive], [Information research process is boring and difficult if not done properly trip could became a loss of money, No difficulties in organizing documents],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i16")[Interview #16]], [Adults, Positive], [Searching information and organization processes require time, Difficult to organize documents],
+    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Interview #17]], [Adults, Positive], [Searching information could be more efficient: can require some time, Not difficult to organize documents.],
   )
 
   #pagebreak()
@@ -241,7 +241,7 @@
 
   As described in @interviews, the DreamSpot team firstly decided to validate the customer sector of young adults (see @end_users for a more detailed description).
 
-  While the #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[first], #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[second] and #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[sixth] conducted interviews confirmed our customers and problems hypotheses, suggesting that this kind of potential customers could be affected by the analyzed issue, the #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[third], #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[fourth], #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[fifth] and #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[seventh] interviews underlined how this was not present in the majority of young adults.
+  While the #link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[first], #link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[second] and #link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[sixth] conducted interviews confirmed our customers and problems hypotheses, suggesting that this kind of potential customers could be affected by the analyzed issue, the #link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[third], #link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[fourth], #link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[fifth] and #link("https://dreamspotai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[seventh] interviews underlined how this was not present in the majority of young adults.
   
   This led the team to partially correct the initial hypotheses about customers by understanding that young adults could not be potential customers of the platform; therefore, they are removed from the end-users group (see @end_users) and family members are partially reconsidered as potential economic buyers (see @eb).
 
@@ -290,7 +290,7 @@
     caption: "Screenshots of the landing page"
   )
 
-  In order to validate the proposed solution, the DreamSpot team decided to create a #link("https://dreamspot.github.io/dreamspot/")[landing page]#footnote(link("https://dreamspot.github.io/dreamspot/")).
+  In order to validate the proposed solution, the DreamSpot team decided to create a #link("https://dreamspotai.github.io/dreamspot/")[landing page]#footnote(link("https://dreamspotai.github.io/dreamspot/")).
 
   In order to adequately present the product to a wide number of people, the website is divided into three sections:
   - *Idea section*: a section with a brief comparison between the normal procedure end-users usually adopt to create an itinerary and the simpler method made available by our service;

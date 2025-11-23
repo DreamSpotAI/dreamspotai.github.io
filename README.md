@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/DreamSpot/.github/3b4609d0bfeb4b1826a020e87cab530357514858/logo.svg" width="20%">
+  <img src="https://raw.githubusercontent.com/DreamSpotAI/.github/3b4609d0bfeb4b1826a020e87cab530357514858/logo.svg" width="20%">
 </div>
 
 <div align="center">
