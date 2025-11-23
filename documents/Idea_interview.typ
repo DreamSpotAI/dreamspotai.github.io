@@ -1,7 +1,7 @@
 #import "./lib/common.typ": doc, firstPage
 #set document(
-  title: "Discover With AI - Business idea validation interviews",
-  author: "The Discover With AI team",
+  title: "DreamSpot - Business idea validation interviews",
+  author: "The DreamSpot team",
   description: "This document contains the interviews made",
   date: auto,
 )

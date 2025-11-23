@@ -1,8 +1,8 @@
 #import "lib/common.typ": doc, firstPage, socialLink
 
 #set document(
-  title: "Discover With AI - Business idea report",
-  author: "The Discover With AI team",
+  title: "DreamSpot - Business idea report",
+  author: "The DreamSpot team",
   description: "This document contains the preliminary analysis for the business project",
   date: auto,
 )
@@ -17,7 +17,7 @@
 
   Before starting to invest huge amounts of money, however, it is necessary to test the basis of our idea: after all, not all solutions have a problem and not all the problems have customers.
 
-  Therefore, it is easy to understand that before starting to implement, we, the Discover With AI team, need to validate our customers, our problem and, finally, our proposed solution with the help of the *lean method*.
+  Therefore, it is easy to understand that before starting to implement, we, the DreamSpot team, need to validate our customers, our problem and, finally, our proposed solution with the help of the *lean method*.
 
   == Problem analysis
 
@@ -29,7 +29,7 @@
 
   - *Information organization* - because of the relevant quantity of booking, ticket reservation and other similar services, keeping track of everything can result in a difficult task to achieve efficiently, users struggle to find an efficient way to organize all the various data.
 
-  _Discover With AI_ aims to bundle the existing services into an all-in-one platform in order to improve the travel experience and make this type of activity more affordable while still keeping a good balance between prices and quality.
+  _DreamSpot_ aims to bundle the existing services into an all-in-one platform in order to improve the travel experience and make this type of activity more affordable while still keeping a good balance between prices and quality.
 
   #pagebreak()
 
@@ -39,7 +39,7 @@
 
   Customers are not only the *end users* of our product/service, but *influencers*, *recommenders*, *economic buyers* and *decision makers* are customers too: each one of them has to be carefully identified in order to maximize the possibilities of success.
 
-  After careful consideration, the Discover With AI team identified the following customers described in the respective chapters.
+  After careful consideration, the DreamSpot team identified the following customers described in the respective chapters.
 
   === End users <end_users>
 
@@ -193,13 +193,13 @@
     [Assess whether managing travel tickets caused user frustration and validate our hypothesis for the necessity of a feature that simplifies ticket handling.],
   )
 
-  These are the most important questions, but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights. See the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[interviews document] for additional information.
+  These are the most important questions, but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights. See the #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf")[interviews document] for additional information.
 
   #pagebreak()
 
   === Interviews <interviews>
 
-  All the made interviews are accessible on the #link("https://discoverwithai.github.io/")[project's website], where an _ad hoc_ #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf")[document] can be found.
+  All the made interviews are accessible on the #link("https://dreamspot.github.io/")[project's website], where an _ad hoc_ #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf")[document] can be found.
 
   The team initially started the validation process by conducting interviews on young adults: these are interviews 1 to 7. Some of them partially confuted the initial customers hypothesis: see @pivoting for more detailed information.
 
@@ -216,32 +216,32 @@
       }
     },
     table.header([*Interview*], [*Target and outcome*], [*Key Points*]),
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[Interview #1]], [Young adults, Positive], [Long time to organize, Difficult to keep track of documents],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[Interview #2]], [Young adults, Positive], [Information research difficult, Like to personalize travels, Search for cheapest option, Difficult to keep track of documents],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[Interview #3]], [Young adults, Negative], [Not difficult to search for information, Finding information does not require lot of time, Easy to keep track of documents],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[Interview #4]], [Young adults, Negative], [Not difficult to search for information even for cheap accommodations, Finding information does not require lot of time, Easy to manage documents],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[Interview #5]], [Young adults, Negative], [Not difficult to search for information, Finding information does not require lot of time, Easy to keep track of documents],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[Interview #6]], [Young adults, Positive], [Difficult to find information, Searched for cheapest option, Finding information could be difficult, Difficult to keep track of documents],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Interview #7]], [Young adults, Negative], [Not interested into making itineraries: prefers to delegate, Finding information not difficult, Cheapest option is not a requirement, Nowadays keeping track of documents it is easy],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i8")[Interview #8]], [Adults, Positive], [Love to personalize itineraries but research process takes time, searching the cheapest option is difficult, No difficulties in keeping track of documents],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i9")[Interview #9]], [Adults, Positive], [Difficult to find information, Difficult to find promotions, Lot of time required, Difficult to keep track of documents],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i10")[Interview #10]], [Adults, Positive], [Search for cheapest option, Difficult to search information, Could require time to organize trip, Easy to keep track of documents],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Interview #11]], [Adults, Negative], [Not difficult to search for information even for cheap accommodations, Not much time required, Easy to keep track of information],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i12")[Interview #12]], [Adults, Positive], [Not difficult to find information but activity requires lot of time, Could be difficult to keep track of documents for long travels.],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i13")[Interview #13]], [Adults, Positive], [Finding information is boring and could not show all possibilities, Costs are a problem, Can require some time due to boring process, Document organization could be difficult],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i14")[Interview #14]], [Adults, Positive], [Organizing information could be difficult and time used could be optimize, Document organization could be time-consuming (not efficient)],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i15")[Interview #15]], [Adults, Positive], [Information research process is boring and difficult if not done properly trip could became a loss of money, No difficulties in organizing documents],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i16")[Interview #16]], [Adults, Positive], [Searching information and organization processes require time, Difficult to organize documents],
-    [#link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Interview #17]], [Adults, Positive], [Searching information could be more efficient: can require some time, Not difficult to organize documents.],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[Interview #1]], [Young adults, Positive], [Long time to organize, Difficult to keep track of documents],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[Interview #2]], [Young adults, Positive], [Information research difficult, Like to personalize travels, Search for cheapest option, Difficult to keep track of documents],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[Interview #3]], [Young adults, Negative], [Not difficult to search for information, Finding information does not require lot of time, Easy to keep track of documents],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[Interview #4]], [Young adults, Negative], [Not difficult to search for information even for cheap accommodations, Finding information does not require lot of time, Easy to manage documents],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[Interview #5]], [Young adults, Negative], [Not difficult to search for information, Finding information does not require lot of time, Easy to keep track of documents],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[Interview #6]], [Young adults, Positive], [Difficult to find information, Searched for cheapest option, Finding information could be difficult, Difficult to keep track of documents],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Interview #7]], [Young adults, Negative], [Not interested into making itineraries: prefers to delegate, Finding information not difficult, Cheapest option is not a requirement, Nowadays keeping track of documents it is easy],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i8")[Interview #8]], [Adults, Positive], [Love to personalize itineraries but research process takes time, searching the cheapest option is difficult, No difficulties in keeping track of documents],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i9")[Interview #9]], [Adults, Positive], [Difficult to find information, Difficult to find promotions, Lot of time required, Difficult to keep track of documents],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i10")[Interview #10]], [Adults, Positive], [Search for cheapest option, Difficult to search information, Could require time to organize trip, Easy to keep track of documents],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i11")[Interview #11]], [Adults, Negative], [Not difficult to search for information even for cheap accommodations, Not much time required, Easy to keep track of information],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i12")[Interview #12]], [Adults, Positive], [Not difficult to find information but activity requires lot of time, Could be difficult to keep track of documents for long travels.],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i13")[Interview #13]], [Adults, Positive], [Finding information is boring and could not show all possibilities, Costs are a problem, Can require some time due to boring process, Document organization could be difficult],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i14")[Interview #14]], [Adults, Positive], [Organizing information could be difficult and time used could be optimize, Document organization could be time-consuming (not efficient)],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i15")[Interview #15]], [Adults, Positive], [Information research process is boring and difficult if not done properly trip could became a loss of money, No difficulties in organizing documents],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i16")[Interview #16]], [Adults, Positive], [Searching information and organization processes require time, Difficult to organize documents],
+    [#link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[Interview #17]], [Adults, Positive], [Searching information could be more efficient: can require some time, Not difficult to organize documents.],
   )
 
   #pagebreak()
 
   === Pivoting <pivoting>
 
-  As described in @interviews, the Discover With AI team firstly decided to validate the customer sector of young adults (see @end_users for a more detailed description).
+  As described in @interviews, the DreamSpot team firstly decided to validate the customer sector of young adults (see @end_users for a more detailed description).
 
-  While the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[first], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[second] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[sixth] conducted interviews confirmed our customers and problems hypotheses, suggesting that this kind of potential customers could be affected by the analyzed issue, the #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[third], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[fourth], #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[fifth] and #link("https://discoverwithai.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[seventh] interviews underlined how this was not present in the majority of young adults.
+  While the #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i1")[first], #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i2")[second] and #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i6")[sixth] conducted interviews confirmed our customers and problems hypotheses, suggesting that this kind of potential customers could be affected by the analyzed issue, the #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i3")[third], #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i4")[fourth], #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i5")[fifth] and #link("https://dreamspot.github.io/compiled/CompiledPDF/Idea_interview.pdf#i7")[seventh] interviews underlined how this was not present in the majority of young adults.
   
   This led the team to partially correct the initial hypotheses about customers by understanding that young adults could not be potential customers of the platform; therefore, they are removed from the end-users group (see @end_users) and family members are partially reconsidered as potential economic buyers (see @eb).
 
@@ -255,7 +255,7 @@
 
   The application will consist of a chatbot powered by Artificial Intelligence (AI) technology, which will have the purpose of guiding the user throughout the process of setting up his or her travel by comparing prices, providing suggestions, and proposing itineraries, automatically providing the user with the cheapest available options in accordance with the travel plan, therefore saving time and money.
 
-  Specifically, the Discover With AI team wanted to initially use the Google Gemini API to provide the minimum required functionality. The solution would be provisional, with the idea of creating more customized web scraping software, along with training a custom machine learning model, in the future.
+  Specifically, the DreamSpot team wanted to initially use the Google Gemini API to provide the minimum required functionality. The solution would be provisional, with the idea of creating more customized web scraping software, along with training a custom machine learning model, in the future.
 
   There are several advantages to the use of Google Gemini, the main one being the capabilities of the AI to interface with the Google search engine, capable of providing updated results regarding events and possible accommodations.
   
@@ -290,17 +290,17 @@
     caption: "Screenshots of the landing page"
   )
 
-  In order to validate the proposed solution, the Discover With AI team decided to create a #link("https://discoverwithai.github.io/DiscoverWithAI/")[landing page]#footnote(link("https://discoverwithai.github.io/DiscoverWithAI/")).
+  In order to validate the proposed solution, the DreamSpot team decided to create a #link("https://dreamspot.github.io/dreamspot/")[landing page]#footnote(link("https://dreamspot.github.io/dreamspot/")).
 
   In order to adequately present the product to a wide number of people, the website is divided into three sections:
   - *Idea section*: a section with a brief comparison between the normal procedure end-users usually adopt to create an itinerary and the simpler method made available by our service;
   - *Gallery section*: a section that briefly presents, thanks to the presence of a carousel made by three images, the expected developed product complete with all functionalities. In other words, a sort of *sketch* of the future platform;
-  - *Form section*: a section in which users can let us known their interest in the project by simply pressing a button. Additionally, people can also choose to send their email in order to be kept updated about the platform's development: this allows the Discover With AI team to separate users who might be interested in the product and people who are really interested in the platform.
+  - *Form section*: a section in which users can let us known their interest in the project by simply pressing a button. Additionally, people can also choose to send their email in order to be kept updated about the platform's development: this allows the DreamSpot team to separate users who might be interested in the product and people who are really interested in the platform.
 
   The last section also present a publicly visible counter of people who manifested interest in the platform.
 
   == Validation
 
-  The validation process for the solution is currently in progress: the Discover With AI team aims to collect a minimum of 50 positive answers (50 visitors that pressed the landing page button), with at least 76% of them also deciding to provide their email.
+  The validation process for the solution is currently in progress: the DreamSpot team aims to collect a minimum of 50 positive answers (50 visitors that pressed the landing page button), with at least 76% of them also deciding to provide their email.
 
 ]
