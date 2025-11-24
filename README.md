@@ -3,8 +3,7 @@
 </div>
 
 <div align="center">
-  <h1>DreamSpot</h1>
-  <h2>Close your eyes, we map the magic<h2>
+  <h1>DreamSpot <br/> Close your eyes, we map the magic</h1>
   <p>A university business project</p>
 </div>
 
