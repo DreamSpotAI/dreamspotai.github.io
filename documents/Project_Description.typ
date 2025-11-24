@@ -253,7 +253,7 @@
 
   == Solution analysis
 
-  The application will consist of a chatbot powered by Artificial Intelligence (AI) technology, which will have the purpose of guiding the user throughout the process of setting up his or her travel by comparing prices, providing suggestions, and proposing itineraries, automatically providing the user with the cheapest available options in accordance with the travel plan, therefore saving time and money.
+  The platform will consist of a chatbot powered by Artificial Intelligence (AI) technology, which will have the purpose of guiding the user throughout the process of setting up his or her travel by comparing prices, providing suggestions, and proposing itineraries, automatically providing the user with the cheapest available options in accordance with the travel plan, therefore saving time and money.
 
   Specifically, the DreamSpot team wanted to initially use the Google Gemini API to provide the minimum required functionality. The solution would be provisional, with the idea of creating more customized web scraping software, along with training a custom machine learning model, in the future.
 
@@ -301,6 +301,35 @@
 
   == Validation
 
-  The validation process for the solution is currently in progress: the DreamSpot team aims to collect a minimum of 50 positive answers (50 visitors that pressed the landing page button), with at least 76% of them also deciding to provide their email.
+  The validation process for the solution aims to collect a minimum of 50 positive answers (50 visitors that pressed the landing page button), with at least 76% of them also deciding to provide their email.
+
+  /*Currently the form received a total of 51 answers, with 39 of them (78%) being with an email: the solution is then to be considered validated.*/
+
+  = Market size, trends and competition
+
+  = Business Model
+
+  The DreamSpot team deeply analyzed a suitable *Business Model* for the platform.
+
+  The _ingredients_, which can be viewed on the first attachment to this document (@at1), of the _recipe_ reflect two important Business Model Patterns: the *Multi-Sided Platform* and *Freemium Business Model*.
+
+  Regarding the *Multi-Sided Platform*, DreamSpot heavily relies on two main groups of users: *free users* and *advertisers*. *Advertisers* have the capabilities, using our platform, to target the right audience for travel-related advertisements. The interest of businesses choosing our platform to display commercials really depends on the growing number of free users.
+
+  A subsidization of free users will be required: therefore, the DreamSpot team decided to [...]
+  /*
+  We have to subsidize free users: how?
+  */
+
+  The platform also provides a premium plan for travel lovers, which includes document organization functionalities and an ad-free experience. Free users, who we plan to be the vast majority of end users, will be financed by a portion of the revenue of the advertisements. //Is it a cost? Also, is it necessary to define the cost of premium plan?
+
+  //Leave this, write on top of it
+  #set page(
+    paper: "presentation-4-3",
+  )
+  = Attachment 1: Business Model Canva <at1>
+  #figure(
+    image("assets/business-model.svg"),
+    caption: "Business Model Canva of DreamSpot"
+  )
 
 ]

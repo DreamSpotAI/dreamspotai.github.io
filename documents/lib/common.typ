@@ -80,6 +80,7 @@
 
   show figure: set block(breakable: true)
   show link: it => underline(text(fill: blue)[#it])
+  show ref: rf => underline(text(fill: orange)[#rf])
   set par(justify: true)
   set text(overhang: false, hyphenate: false)
 
