@@ -1,37 +1,37 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="29.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0" version="29.1.1">
   <diagram name="Page-1" id="i9PIMWDdx1eVqQ8Koul_">
-    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1210" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="iko20erEdPcQ_U37iP1C-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Key Partners" vertex="1">
           <mxGeometry height="400" width="200" x="120" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="oMy__rHpgCNjBTO7JWDU-9" parent="iko20erEdPcQ_U37iP1C-2" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;spacing=0;" value="&lt;ul style=&quot;line-height: 150%;&quot;&gt;&lt;li&gt;&lt;span&gt;LLM owner&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Shops&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+        <mxCell id="oMy__rHpgCNjBTO7JWDU-9" parent="iko20erEdPcQ_U37iP1C-2" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;spacing=0;" value="&lt;ul style=&quot;line-height: 150%;&quot;&gt;&lt;li&gt;&lt;span&gt;LLM owner&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Elettronic shops&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Supermarkets&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="80" width="180" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="oMy__rHpgCNjBTO7JWDU-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Key Activities" vertex="1">
           <mxGeometry height="200" width="200" x="320" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="oMy__rHpgCNjBTO7JWDU-11" parent="oMy__rHpgCNjBTO7JWDU-1" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;spacing=0;" value="&lt;ul style=&quot;line-height: 170%;&quot;&gt;&lt;li&gt;User acquisition&lt;/li&gt;&lt;li&gt;Web site design&lt;/li&gt;&lt;li&gt;Web app design&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+        <mxCell id="oMy__rHpgCNjBTO7JWDU-11" parent="oMy__rHpgCNjBTO7JWDU-1" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;spacing=0;" value="&lt;ul style=&quot;line-height: 170%;&quot;&gt;&lt;li&gt;User acquisition&lt;/li&gt;&lt;li&gt;Web site development&lt;/li&gt;&lt;li&gt;Web app&amp;nbsp;development&lt;/li&gt;&lt;li&gt;Promoting the application&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="160" width="180" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="oMy__rHpgCNjBTO7JWDU-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Key Resources" vertex="1">
           <mxGeometry height="200" width="200" x="320" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="oMy__rHpgCNjBTO7JWDU-12" parent="oMy__rHpgCNjBTO7JWDU-2" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;spacing=0;" value="&lt;ul style=&quot;line-height: 170%;&quot;&gt;&lt;li&gt;Web site platform&lt;/li&gt;&lt;li&gt;Web app platform&lt;/li&gt;&lt;li&gt;Free &amp;amp; premium user base&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+        <mxCell id="oMy__rHpgCNjBTO7JWDU-12" parent="oMy__rHpgCNjBTO7JWDU-2" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;spacing=0;" value="&lt;ul style=&quot;line-height: 170%;&quot;&gt;&lt;li&gt;Web site platform&lt;/li&gt;&lt;li&gt;Web app platform&lt;/li&gt;&lt;li&gt;User base&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="160" width="180" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="oMy__rHpgCNjBTO7JWDU-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Value Proposition" vertex="1">
           <mxGeometry height="400" width="200" x="520" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="oMy__rHpgCNjBTO7JWDU-13" parent="oMy__rHpgCNjBTO7JWDU-3" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;spacing=0;" value="&lt;ul style=&quot;line-height: 170%;&quot;&gt;&lt;li&gt;All-in-one platform for guiding travellers into trip organization&lt;/li&gt;&lt;li&gt;Mobile platform for travel information and notes&lt;/li&gt;&lt;li&gt;Premium suggestions for itineraries&lt;/li&gt;&lt;li&gt;Targeted advertisements&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+        <mxCell id="oMy__rHpgCNjBTO7JWDU-13" parent="oMy__rHpgCNjBTO7JWDU-3" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;spacing=0;" value="&lt;ul style=&quot;line-height: 170%;&quot;&gt;&lt;li&gt;All-in-one platform for guiding travellers into trip organization&lt;/li&gt;&lt;li&gt;Add-free experience and travel information notes,tickets organization&lt;/li&gt;&lt;li&gt;Targeted advertisements&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="240" width="180" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="oMy__rHpgCNjBTO7JWDU-4" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Customer Relationships" vertex="1">
           <mxGeometry height="200" width="200" x="720" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="oMy__rHpgCNjBTO7JWDU-14" parent="oMy__rHpgCNjBTO7JWDU-4" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;spacing=0;" value="&lt;ul style=&quot;line-height: 170%;&quot;&gt;&lt;li&gt;Community&lt;/li&gt;&lt;li&gt;Social media&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+        <mxCell id="oMy__rHpgCNjBTO7JWDU-14" parent="oMy__rHpgCNjBTO7JWDU-4" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;spacing=0;" value="&lt;ul style=&quot;line-height: 170%;&quot;&gt;&lt;li&gt;Word of mouth&lt;/li&gt;&lt;li&gt;Social media&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="160" width="180" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="oMy__rHpgCNjBTO7JWDU-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Channels" vertex="1">
@@ -43,13 +43,13 @@
         <mxCell id="oMy__rHpgCNjBTO7JWDU-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Customer Segments" vertex="1">
           <mxGeometry height="400" width="200" x="920" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="oMy__rHpgCNjBTO7JWDU-16" parent="oMy__rHpgCNjBTO7JWDU-6" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;spacing=0;" value="&lt;ul style=&quot;line-height: 170%;&quot;&gt;&lt;li&gt;Travel lovers&lt;/li&gt;&lt;li&gt;Travellers who struggle to keep trip information organized&lt;/li&gt;&lt;li&gt;Premium users&lt;/li&gt;&lt;li&gt;Advertisers&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+        <mxCell id="oMy__rHpgCNjBTO7JWDU-16" parent="oMy__rHpgCNjBTO7JWDU-6" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;spacing=0;" value="&lt;ul style=&quot;line-height: 170%;&quot;&gt;&lt;li&gt;Travel lovers&lt;/li&gt;&lt;li&gt;Premium users&lt;/li&gt;&lt;li&gt;Advertisers&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="160" width="180" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="oMy__rHpgCNjBTO7JWDU-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Cost Structure" vertex="1">
           <mxGeometry height="200" width="500" x="120" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="oMy__rHpgCNjBTO7JWDU-17" parent="oMy__rHpgCNjBTO7JWDU-7" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;spacing=0;" value="&lt;ul style=&quot;line-height: 170%;&quot;&gt;&lt;li&gt;LLM fees for free users&lt;/li&gt;&lt;li&gt;LLM fees for premium users&lt;/li&gt;&lt;li&gt;Royalties for premium users (shops)&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+        <mxCell id="oMy__rHpgCNjBTO7JWDU-17" parent="oMy__rHpgCNjBTO7JWDU-7" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;spacing=0;" value="&lt;ul style=&quot;line-height: 170%;&quot;&gt;&lt;li&gt;LLM fees for free users&lt;/li&gt;&lt;li&gt;LLM fees for premium users&lt;/li&gt;&lt;li&gt;Royalties to the&amp;nbsp;&lt;span&gt;elettronic shops&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Royalties to the&amp;nbsp;&lt;span&gt;supermarkets&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Promoting the application (ads)&lt;/li&gt;&lt;li&gt;Hosting application&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="160" width="480" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="oMy__rHpgCNjBTO7JWDU-8" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Revenue Streams" vertex="1">
