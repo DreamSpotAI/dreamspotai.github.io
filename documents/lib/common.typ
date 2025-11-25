@@ -20,7 +20,23 @@
     }
   }
 
-#let firstPage(title) = {
+#let to-string(it) = {
+  if type(it) == str {
+    it
+  } else if type(it) != content {
+    str(it)
+  } else if it.has("text") {
+    it.text
+  } else if it.has("children") {
+    it.children.map(to-string).join()
+  } else if it.has("body") {
+    to-string(it.body)
+  } else if it == [ ] {
+    " "
+  }
+}
+
+#let firstPage(title, imageList: true, attachmentList: true) = {
   set page(
     margin: (top: 0pt, left: 0pt, right: 0pt, bottom: 0pt)
   )
@@ -62,19 +78,56 @@
 
   show outline.entry.where(level: 1): it => {
     v(12pt, weak: true)
-    text(size: 1.2em)[*#it*]
+    let secName = to-string(it.element.body)
+    if type(secName) == str {
+      if (secName.starts-with("Attachment") == false) {
+        text(size: 1.2em)[*#it*]
+      }
+    }
   }
   outline(depth: 4, title: text(size: 2em)[#v(1em) Index #v(1em)], indent: 1em)
-
-  show outline.entry.where(level: 1): it => {
-    text(size: 0.8em, weight: "thin")[#it]
+  if(imageList==true) {
+    show outline.entry: set text(weight: "extralight")
+    outline(
+      title: text(size: 1.5em)[#v(0.5em) Images #v(0.5em)],
+      target: figure.where(kind: image)
+    )
   }
-  outline(
-    title: text(size: 1.5em)[#v(0.5em) Images #v(0.5em)],
-    target: figure.where(kind: image)
-  )
+
+  if(attachmentList==true) {
+    text(size: 2em)[#v(0.5em) *Attachments* #v(0em)]
+    context {
+      let chapters = query(heading.where(level: 1))
+      for ch in chapters {
+        let secName = to-string(ch.body)
+        let location = ch.location()
+        let pageNumber = counter(page).at(location).at(0)
+        if type(secName) == str {
+          if (secName.starts-with("Attachment") == true) {
+            set text(1.2em)
+            grid(
+              columns: (auto,auto,3%),
+              [#link(location)[#secName] #h(0.2em)],[#link(location)[*#repeat(".", gap: 1pt)*]],[#link(location)[#pageNumber]]
+            )
+          }
+        }
+      }
+    }
+  }
+
+/*
+
+*/
 
 }
+
+#let horizontalSection(title, labeltxt: str, body) = {
+  set page(flipped: true)
+
+  [#heading(level: 1)[#title] #label(labeltxt)]
+  body
+}
+
 
 #let doc(title, body) = {
 

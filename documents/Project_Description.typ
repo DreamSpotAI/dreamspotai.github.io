@@ -1,4 +1,4 @@
-#import "lib/common.typ": doc, firstPage, socialLink
+#import "lib/common.typ": doc, firstPage, socialLink, horizontalSection
 
 #set document(
   title: "DreamSpot - Business idea report",
@@ -309,27 +309,33 @@
 
   = Business Model
 
-  The DreamSpot team deeply analyzed a suitable *Business Model* for the platform.
+  The DreamSpot team deeply analyzed a suitable *Business Model* for the platform that will be discussed in the following section.
 
-  The _ingredients_, which can be viewed on the first attachment to this document (@at1), of the _recipe_ reflect two important Business Model Patterns: the *Multi-Sided Platform* and *Freemium Business Model*.
+  == Business Model Canva and Business Model Patterns
+
+  The _ingredients_, which can be viewed on the first attachment to this document (#ref(label("at1"))), of the _recipe_ reflect two important Business Model Patterns: the *Multi-Sided Platform* and *Freemium Business Model*.
 
   Regarding the *Multi-Sided Platform*, DreamSpot heavily relies on two main groups of users: *free users* and *advertisers*. *Advertisers* have the capabilities, using our platform, to target the right audience for travel-related advertisements. The interest of businesses choosing our platform to display commercials really depends on the growing number of free users.
 
-  A subsidization of free users will be required: therefore, the DreamSpot team decided to [...]
-  /*
-  We have to subsidize free users: how?
-  */
+  A subsidization of free users will be required; therefore, the DreamSpot team decided to:
+  - offer users the possibility to use the *documents' organization functionality* for the *first travel* completely *free of charge*;
+  - *unlock* the *documents' organization functionality* for another travel *every 10 other people* that *join* the platform using a referral link/code connected to the user's personal account.
 
   The platform also provides a premium plan for travel lovers, which includes document organization functionalities and an ad-free experience. Free users, who we plan to be the vast majority of end users, will be financed by a portion of the revenue of the advertisements. //Is it a cost? Also, is it necessary to define the cost of premium plan?
 
   //Leave this, write on top of it
-  #set page(
+  /*#set page(
     paper: "presentation-4-3",
-  )
-  = Attachment 1: Business Model Canva <at1>
-  #figure(
-    image("assets/business-model.svg"),
-    caption: "Business Model Canva of DreamSpot"
+  )*/
+  #horizontalSection(
+    "Attachment 1: Business Model Canva",
+    labeltxt: "at1",
+    [
+      #figure(
+        image("assets/business-model.svg", width: 97%),
+        caption: "Business Model Canva of DreamSpot"
+    )
+  ]
   )
 
 ]

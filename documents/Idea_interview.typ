@@ -6,7 +6,7 @@
   date: auto,
 )
 
-#firstPage([*Business idea validation interviews*])
+#firstPage([*Business idea validation interviews*], imageList: false, attachmentList:  false)
 
 #doc("Business idea validation interviews")[
   = Introduction
