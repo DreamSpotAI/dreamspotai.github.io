@@ -1,4 +1,4 @@
-#import "lib/common.typ": doc, firstPage, socialLink, horizontalSection
+#import "lib/common.typ": doc, firstPage, socialLink, horizontalSection, orange
 
 #set document(
   title: "DreamSpot - Business idea report",
@@ -235,8 +235,6 @@
     [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i7")[Interview #17]], [Adults, Positive], [Searching information could be more efficient: can require some time, Not difficult to organize documents.],
   )
 
-  #pagebreak()
-
   === Pivoting <pivoting>
 
   As described in @interviews, the DreamSpot team firstly decided to validate the customer sector of young adults (see @end_users for a more detailed description).
@@ -307,15 +305,13 @@
 
   Currently the form received a total of 51 answers, with 39 of them (78%) being with an email: the solution is then to be considered validated.
 
-  = Market size, trends and competition
-
   = Business Model
 
   The DreamSpot team deeply analyzed a suitable *Business Model* for the platform that will be discussed in the following section.
 
   == Business Model Canva and Business Model Patterns
 
-  The _ingredients_, which can be viewed on the first attachment to this document (#ref(label("at1"))), of the _recipe_ reflect two important Business Model Patterns: the *Multi-Sided Platform* and *Freemium Business Model*.
+  The _ingredients_, which can be viewed on the first attachment to this document (#link(label("at1"))[#text(fill: orange)[Attachment 1]]), of the _recipe_ reflect two important Business Model Patterns: the *Multi-Sided Platform* and *Freemium Business Model*.
 
   Regarding the *Multi-Sided Platform*, DreamSpot heavily relies on two main groups of users: *free users* and *advertisers*. *Advertisers* have the capabilities, using our platform, to target the right audience for travel-related advertisements. The interest of businesses choosing our platform to display commercials really depends on the growing number of free users.
 
@@ -324,6 +320,9 @@
   - *unlock* the *documents' organization functionality* for another travel *every 10 other people* that *join* the platform using a referral link/code connected to the user's personal account.
 
   The platform also provides a premium plan for travel lovers, which includes document organization functionalities and an ad-free experience. Free users, who we plan to be the vast majority of end users, will be financed by a portion of the revenue of the advertisements.
+
+  = Market size, trends and competition
+
   #horizontalSection(
     "Attachment 1: Business Model Canva",
     labeltxt: "at1",
