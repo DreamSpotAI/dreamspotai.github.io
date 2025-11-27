@@ -123,8 +123,14 @@
 
 #let horizontalSection(title, labeltxt: str, body) = {
   set page(flipped: true)
-
-  [#heading(level: 1)[#title] #label(labeltxt)]
+  set heading(numbering: none)
+  [
+    #heading(level: 1)[#title]
+    #hide(
+      [#figure(kind: "hiddenFigure",supplement: "Hidden Figure",box(height: 0%)[ciao])#label(labeltxt)]
+    ) 
+  ]
+  v(-1em)
   body
 }
 

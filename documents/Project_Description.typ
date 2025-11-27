@@ -297,13 +297,15 @@
   - *Gallery section*: a section that briefly presents, thanks to the presence of a carousel made by three images, the expected developed product complete with all functionalities. In other words, a sort of *sketch* of the future platform;
   - *Form section*: a section in which users can let us known their interest in the project by simply pressing a button. Additionally, people can also choose to send their email in order to be kept updated about the platform's development: this allows the DreamSpot team to separate users who might be interested in the product and people who are really interested in the platform.
 
+  The particular structure of the website guarantees that only interested people will eventually scroll until the last section.
+
   The last section also present a publicly visible counter of people who manifested interest in the platform.
 
   == Validation
 
   The validation process for the solution aims to collect a minimum of 50 positive answers (50 visitors that pressed the landing page button), with at least 76% of them also deciding to provide their email.
 
-  /*Currently the form received a total of 51 answers, with 39 of them (78%) being with an email: the solution is then to be considered validated.*/
+  Currently the form received a total of 51 answers, with 39 of them (78%) being with an email: the solution is then to be considered validated.
 
   = Market size, trends and competition
 
@@ -321,12 +323,7 @@
   - offer users the possibility to use the *documents' organization functionality* for the *first travel* completely *free of charge*;
   - *unlock* the *documents' organization functionality* for another travel *every 10 other people* that *join* the platform using a referral link/code connected to the user's personal account.
 
-  The platform also provides a premium plan for travel lovers, which includes document organization functionalities and an ad-free experience. Free users, who we plan to be the vast majority of end users, will be financed by a portion of the revenue of the advertisements. //Is it a cost? Also, is it necessary to define the cost of premium plan?
-
-  //Leave this, write on top of it
-  /*#set page(
-    paper: "presentation-4-3",
-  )*/
+  The platform also provides a premium plan for travel lovers, which includes document organization functionalities and an ad-free experience. Free users, who we plan to be the vast majority of end users, will be financed by a portion of the revenue of the advertisements.
   #horizontalSection(
     "Attachment 1: Business Model Canva",
     labeltxt: "at1",
