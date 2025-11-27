@@ -87,29 +87,27 @@
   }
   outline(depth: 4, title: text(size: 2em)[#v(1em) Index #v(1em)], indent: 1em)
   if(imageList==true) {
-    text(size: 2em)[#v(0.5em) *Images* #v(0em)]
+    text(size: 2em)[#v(0.5em) *Images* #v(1em)]
     set text(1.2em)
+    show grid: set block(spacing: 0.5em)
     context {
-      let images = query(figure.where(kind: image))
-      for image in images {
+      let images = query(figure.where(kind: image)).enumerate()
+      for (i,image) in images {
         let imageName = image.caption.body
+        let imagePrefix = image.caption.supplement
         let location = image.location()
         let pageNumber = counter(page).at(location).at(0)
         grid(
-              columns: (auto,auto,3%),
-              [#link(location)[#imageName] #h(0.2em)],[#link(location)[*#repeat(".", gap: 1pt)*]],[#link(location)[#pageNumber]]
+              columns: (auto,auto,auto),
+              [#link(location)[#imagePrefix #int(i+1) #imageName] ],[#link(location)[*#repeat(".", gap: 1pt)*]],[#link(location)[#pageNumber]]
         )
       }
     }
-    /*show outline.entry: set text(weight: "extralight")
-    outline(
-      title: text(size: 1.5em)[#v(0.5em) Images #v(0.5em)],
-      target: figure.where(kind: image)
-    )*/
   }
 
   if(attachmentList==true) {
-    text(size: 2em)[#v(0.5em) *Attachments* #v(0em)]
+    text(size: 2em)[#v(0.5em) *Attachments* #v(1em)]
+    show grid: set block(spacing: 0.5em)
     context {
       let chapters = query(heading.where(level: 1))
       for ch in chapters {
