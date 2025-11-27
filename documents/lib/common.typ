@@ -87,11 +87,25 @@
   }
   outline(depth: 4, title: text(size: 2em)[#v(1em) Index #v(1em)], indent: 1em)
   if(imageList==true) {
-    show outline.entry: set text(weight: "extralight")
+    text(size: 2em)[#v(0.5em) *Images* #v(0em)]
+    set text(1.2em)
+    context {
+      let images = query(figure.where(kind: image))
+      for image in images {
+        let imageName = image.caption.body
+        let location = image.location()
+        let pageNumber = counter(page).at(location).at(0)
+        grid(
+              columns: (auto,auto,3%),
+              [#link(location)[#imageName] #h(0.2em)],[#link(location)[*#repeat(".", gap: 1pt)*]],[#link(location)[#pageNumber]]
+        )
+      }
+    }
+    /*show outline.entry: set text(weight: "extralight")
     outline(
       title: text(size: 1.5em)[#v(0.5em) Images #v(0.5em)],
       target: figure.where(kind: image)
-    )
+    )*/
   }
 
   if(attachmentList==true) {

@@ -329,6 +329,7 @@
     labeltxt: "at1",
     [
       #figure(
+        kind: image,
         image("assets/business-model.svg", width: 97%),
         caption: "Business Model Canva of DreamSpot"
     )
