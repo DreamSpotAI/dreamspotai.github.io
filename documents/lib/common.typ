@@ -99,14 +99,14 @@
         let pageNumber = counter(page).at(location).at(0)
         grid(
               columns: (auto,auto,auto),
-              [#link(location)[#imagePrefix #int(i+1) #imageName] ],[#link(location)[*#repeat(".", gap: 1pt)*]],[#link(location)[#pageNumber]]
+              [#link(location)[#imagePrefix #int(i+1): #imageName] ],[#link(location)[*#repeat(".", gap: 1pt)*]],[#link(location)[#pageNumber]]
         )
       }
     }
   }
 
   if(attachmentList==true) {
-    text(size: 2em)[#v(0.5em) *Attachments* #v(1em)]
+    text(size: 2em)[#v(1em) *Attachments* #v(1em)]
     show grid: set block(spacing: 0.5em)
     context {
       let chapters = query(heading.where(level: 1))

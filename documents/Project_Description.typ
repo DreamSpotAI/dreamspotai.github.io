@@ -287,7 +287,7 @@
       [#image("assets/img/idea.png")],[#image("assets/img/sketch.png")],
       grid.cell(colspan: 2)[#v(1em) #image("assets/img/form.png", width: 50%)],
     ),
-    caption: "Screenshots of the landing page"
+    caption: "Screenshots of the website"
   )
 
   In order to validate the proposed solution, the DreamSpot team decided to create a #link("https://dreamspotai.github.io/DreamSpot/")[landing page]#footnote(link("https://dreamspotai.github.io/DreamSpot/")).
