@@ -1,11 +1,11 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import { Chatbot } from "../chatbot/chatbot";
 
 export const meta: Route.MetaFunction = ({ }: Route.MetaArgs) => [
-  { title: "New React Router App" },
-  { name: "description", content: "Welcome to React Router!" },
+  { title: "Chat - DreamSpotAI" },
+  { name: "description", content: "Welcome DreamSpotAI, just ask the and we map your journey" },
 ]
 
 export default function Home() {
-  return <Welcome />;
+  return <Chatbot />;
 }
