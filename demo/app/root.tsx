@@ -46,7 +46,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <h1 className="text-3xl font-extrabold text-center">DREAMSPOT</h1>
           </div>
           <div className="ml-auto flex flex-col justify-between">
-            <img className="m-auto w-15 aspect-square rounded-full" src="/user.jpeg" alt="User icon" />
+            <img className="m-auto w-15 aspect-square object-cover rounded-full" src="/user.jpeg" alt="User icon" />
             <p className="text-center">Laura</p>
           </div>
         </header>
@@ -68,7 +68,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               </ul>
             </nav>
           </aside>
-          <main className="flex flex-1 bg-amber-500 items-center justify-center pt-16 pb-4">
+          <main className="flex flex-1 flex-col gap-5 bg-amber-500 p-5">
             {children}
           </main>
         </div>
