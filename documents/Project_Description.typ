@@ -323,6 +323,38 @@
 
   = Market size, trends and competition
 
+  The DreamSpot platform is clearly part of an already *existing market*: the *travel market*. The DreamSpot team carefully analyzed the market size, the market properties and the competitors: key results are reported in the chapters below.
+
+  == Total Addressable Market, Served Addressable Market and Target Market
+
+  == Competitors analysis
+
+  By searching the web, the DreamSpot team found the following possible competitors, together with their respective advantages and disadvantages.
+
+  #table(
+    columns: (20%,40%,40%),
+    align: (x,y) => {
+      if y==0 {
+        center+horizon
+      } else {
+        left
+      }
+    },
+    table.header([*Name or Type*], [*Advantages*], [*Disadvantages*]),
+    [*Travel agencies*], [Easy way to organize a trip, various different packages are available. All of the process requires minimal action from the customer], [An additional and substantial commission is often required. Personalization of travels is minimal. Documents management is in charge of the customer],
+    [*Traditional AI chatbots* \ e.g. ChatGPT], [Provides useful suggestions about possible travel destination and places to visit, also day by day. Able to personalize the whole trip.], [Can be unoptimized for travels and provides not useful suggestion. Does not guide between all of the steps needed for the travel. No documents organization functionality],
+    [#link("https://www.canva.com/trip-planner-ai/")[*Canva Planner*]], [A functionality of canvas that helps with trip planning. Offer collaboration functionalities], [Limited on the personalization and does not guide the user into the organization. Limited to a maximum of 50 organizations. No documents organization functionality],
+    [#link("https://wanderlog.com/")[*Wanderlog*]], [Specialized travel organization app with AI functionality. Allow to insert documents and collaboration functionality are also available], [Trip optimization functionality and offline data visualization are limited to the paid version],
+    [#link("https://www.stippl.io/")[*Stippl*]], [An app that, with the help of an AI, helps the trip organization. Can partially organize bookings and travels], [AI functionality seems to be limited according to provided screenshot of the app. According to third party, offline visualization is not eligible for free users],
+    [#link("https://www.aiplanner.ai/about")[*Aiplanner*]], [Web service that offer ai-powered trip oranization services], [No document organization functionality. Usage is token-limited, therefore, personalization could be limited for free users.],
+    [#link("https://wonderplan.ai/")[*Wonderplan*]], [Free app for organizing trip using the help of AI], [As described by the developers themselves, the app could become partially or entirely premium at some point. Offline availability of trip data is possible via downloadable pdf only. No documents organization functionality is available.] 
+  )
+
+  == Unique Selling Point
+
+
+  //Under here put attachments
+
   #horizontalSection(
     "Attachment 1: Business Model Canva",
     labeltxt: "at1",
