@@ -45,7 +45,7 @@
 
   End users are people with the economic possibilities to organize a trip, travel or journey, but who are also interested in saving money where possible without the burden of organizing in depth every single detail. Travel agencies can ease users's responsibilities, however they may require an expensive commission that could be unaffordable for a significant portion of travelers.
 
-  Specifically, end users are young adults (20-25 years old) and adults (between 26 and 50 years old) with those characteristics and who are willing to organize a holiday alone, with friends and/or with their families.
+  Specifically, end users are young adults (20-34 years old) and adults (between 35 and 55 years old) with those characteristics and who are willing to organize a holiday alone, with friends and/or with their families.
 
   === Influencers
 
@@ -326,6 +326,18 @@
   The DreamSpot platform is clearly part of an already *existing market*: the *travel market*. The DreamSpot team carefully analyzed the market size, the market properties and the competitors: key results are reported in the chapters below.
 
   == Total Addressable Market, Served Addressable Market and Target Market
+
+  TAM: The global outbound tourism market size stood at approximately USD 8879.2 billion in 2024
+
+  Source: https://www.businessresearchinsights.com/market-reports/outbound-tourism-market-118431
+
+  SAM: The USA outbound travel market is poised for substantial growth. It is projected to rise up to USD 293.3 billion in 2025.
+
+  Source: https://www.futuremarketinsights.com/reports/united-states-outbound-travel-market
+
+  TM: 35% of Gen X respondents (ages 35-54 years old) => 102.7 bilion
+
+  Source: https://novacancynews.com/u-s-millennials-most-likely-to-take-spend-more-on-vacations-this-year-next/
 
   == Competitors analysis
 
