@@ -45,7 +45,7 @@
 
   End users are people with the economic possibilities to organize a trip, travel or journey, but who are also interested in saving money where possible without the burden of organizing in depth every single detail. Travel agencies can ease users's responsibilities, however they may require an expensive commission that could be unaffordable for a significant portion of travelers.
 
-  Specifically, end users are young adults (20-34 years old) and adults (between 35 and 55 years old) with those characteristics and who are willing to organize a holiday alone, with friends and/or with their families.
+  Specifically, end users are young adults (20-34 years old) and adults (between 35 and 54 years old) with those characteristics and who are willing to organize a holiday alone, with friends and/or with their families.
 
   === Influencers
 
@@ -327,17 +327,19 @@
 
   == Total Addressable Market, Served Addressable Market and Target Market
 
-  TAM: The global outbound tourism market size stood at approximately USD 8879.2 billion in 2024
+  The DreamSpot team identified its markets as follow:
 
-  Source: https://www.businessresearchinsights.com/market-reports/outbound-tourism-market-118431
+  - *Total Addressable Market* - it consider the global outbound turism market, namely the flow of travelers worldwide. In 2024 the market size sood at approximately USD \$8879.2 bilion;
 
-  SAM: The USA outbound travel market is poised for substantial growth. It is projected to rise up to USD 293.3 billion in 2025.
+    Source: #link("https://www.businessresearchinsights.com/market-reports/outbound-tourism-market-118431")[businessresearchinsights.com]
 
-  Source: https://www.futuremarketinsights.com/reports/united-states-outbound-travel-market
+  - *Served Addressable Market* - it reduces TAM concentrating in the USA outbound travel market. The DreamSpot group chose to focus on this country due to its influence in the travel market; moreover, since the application is designed in english, the choice of USA increase the amount of end users. The USA outbound travel market is projected to rise up to USD \$293.3 bilion in 2025;
 
-  TM: 35% of Gen X respondents (ages 35-54 years old) => 102.7 bilion
+    Source: #link("https://www.futuremarketinsights.com/reports/united-states-outbound-travel-market")[futuremarketinsights.com]
 
-  Source: https://novacancynews.com/u-s-millennials-most-likely-to-take-spend-more-on-vacations-this-year-next/
+  - *Target Market* - the DreamSpot team's target market corresponds to USA citizens, who are use to travel, in the age between 35 and 54 years old, as validated using interviews. Approximately 35% of travelers accounts for the target age, hence valuating to USD 102.7 bilion.
+
+    Source: #link("https://novacancynews.com/u-s-millennials-most-likely-to-take-spend-more-on-vacations-this-year-next/")[novacancynews.com]
 
   == Competitors analysis
 
