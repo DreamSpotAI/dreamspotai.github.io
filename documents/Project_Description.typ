@@ -344,6 +344,24 @@
   By searching the web, the DreamSpot team found the following possible competitors, together with their respective advantages and disadvantages.
 
   #table(
+    columns: (20%,30%,30%,20%),
+    align: (x,y) => {
+      if y==0 {
+        center+horizon
+      } else {
+        left
+      }
+    },
+    table.header([*Name or Type*], [*Advantages*], [*Disadvantages*], [*Usage data*]),
+    [*Travel agencies*], [Easy way to organize a trip, various different packages are available. All of the process requires minimal action from the customer], [An additional and substantial commission is often required. Personalization of travels is minimal. Documents management is in charge of the customer], [According to #link("https://www.statista.com/topics/1859/travel-agencies/?srsltid=AfmBOoqdj3TlMLr1yeSE2LtSR8YyRBV8ORWGmjtmHotDJAweutI18mSV#topicOverview")[statista.com], the worldwide market of travel agencies generates 654 billion USD, according to #link("https://deepmarketinsights.com/vista/insights/travel-agency-market/united-states")[deepmarket insights.com], in the US the market has generated 145.43 billion USD.],
+    [*Traditional AI chatbots* \ e.g. ChatGPT], [Provides useful suggestions about possible travel destination and places to visit, also day by day. Able to personalize the whole trip.], [Can be unoptimized for travels and provides not useful suggestion. Does not guide between all of the steps needed for the travel. No documents organization functionality], [According to #link("https://openai.com/index/how-people-are-using-chatgpt/")[openai.com], as for September 15#super("th"), 2025 ChatGPT alone count 700 million weekly active users],
+    [#link("https://wanderlog.com/")[*Wanderlog*]], [Specialized travel organization app with AI functionality. Allow to insert documents and collaboration functionality are also available], [Trip optimization functionality and offline data visualization are limited to the paid version], [The app has been downloaded more than 1 million times from the #link("https://play.google.com/store/apps/details?id=com.wanderlog.android&hl=it&pli=1")[Play Store], achieving an evaluation of 4.9 out 5 stars on both the Google Play store and the #link("https://apps.apple.com/it/app/wanderlog-viaggi-pianificatore/id1476732439")[App Store]],
+    [#link("https://www.stippl.io/")[*Stippl*]], [An app that, with the help of an AI, helps the trip organization. Can partially organize bookings and travels], [AI functionality seems to be limited according to provided screenshot of the app. According to third party, offline visualization is not eligible for free users], [The app count more than 100 thousand downloads from the #link("https://play.google.com/store/apps/details?id=com.stippl.stippl&hl=it")[Play Store], achieving about 4.5 out of 5 stars on both the Play Store and the #link("https://apps.apple.com/it/app/stippl-pianificatore-viaggio/id6443617088")[App Store]],
+  )
+
+  Other possible competitors, which doesn't have reliable usage data:
+
+    #table(
     columns: (20%,40%,40%),
     align: (x,y) => {
       if y==0 {
@@ -353,13 +371,9 @@
       }
     },
     table.header([*Name or Type*], [*Advantages*], [*Disadvantages*]),
-    [*Travel agencies*], [Easy way to organize a trip, various different packages are available. All of the process requires minimal action from the customer], [An additional and substantial commission is often required. Personalization of travels is minimal. Documents management is in charge of the customer],
-    [*Traditional AI chatbots* \ e.g. ChatGPT], [Provides useful suggestions about possible travel destination and places to visit, also day by day. Able to personalize the whole trip.], [Can be unoptimized for travels and provides not useful suggestion. Does not guide between all of the steps needed for the travel. No documents organization functionality],
     [#link("https://www.canva.com/trip-planner-ai/")[*Canva Planner*]], [A functionality of canvas that helps with trip planning. Offer collaboration functionalities], [Limited on the personalization and does not guide the user into the organization. Limited to a maximum of 50 organizations. No documents organization functionality],
-    [#link("https://wanderlog.com/")[*Wanderlog*]], [Specialized travel organization app with AI functionality. Allow to insert documents and collaboration functionality are also available], [Trip optimization functionality and offline data visualization are limited to the paid version],
-    [#link("https://www.stippl.io/")[*Stippl*]], [An app that, with the help of an AI, helps the trip organization. Can partially organize bookings and travels], [AI functionality seems to be limited according to provided screenshot of the app. According to third party, offline visualization is not eligible for free users],
-    [#link("https://www.aiplanner.ai/about")[*Aiplanner*]], [Web service that offer ai-powered trip oranization services], [No document organization functionality. Usage is token-limited, therefore, personalization could be limited for free users.],
-    [#link("https://wonderplan.ai/")[*Wonderplan*]], [Free app for organizing trip using the help of AI], [As described by the developers themselves, the app could become partially or entirely premium at some point. Offline availability of trip data is possible via downloadable pdf only. No documents organization functionality is available.] 
+    [#link("https://www.aiplanner.ai/about")[*Aiplanner*]], [Web service that offer ai-powered trip organization services], [No document organization functionality. Usage is token-limited, therefore, personalization could be limited for free users.],
+    [#link("https://wonderplan.ai/")[*Wonderplan*]], [Free app for organizing trip using the help of AI], [As described by the developers themselves, the app could become partially or entirely premium at some point. Offline availability of trip data is possible via downloadable pdf only. No documents organization functionality is available.],
   )
 
   == Unique Selling Point
