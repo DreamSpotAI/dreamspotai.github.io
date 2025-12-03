@@ -319,7 +319,7 @@
   - offer users the possibility to use the *documents' organization functionality* for the *first travel* completely *free of charge*;
   - *unlock* the *documents' organization functionality* for another travel *every 10 other people* that *join* the platform using a referral link/code connected to the user's personal account.
 
-  The platform also provides a premium plan for travel lovers, which includes document organization functionalities and an ad-free experience. Free users, who we plan to be the vast majority of end users, will be financed by a portion of the revenue of the advertisements.
+  The platform also provides *two possible travel-based premium packets* for travel lovers, which *includes* *document organization* functionalities and an *ad-free* experience: the *first plan* allows the use of the mentioned benefits for a *travel not longer than one week* in exchange of *$dollar$1,99*, while the *second one* allows to retain the benefits for a *travel longer than a week* at the cost of *$dollar$3.49*. *Free users*, who we plan to be the vast majority of end users, will be *financed* by a portion of the revenue of the *advertisements*.
 
   = Market size, trends and competition
 
@@ -327,19 +327,23 @@
 
   == Total Addressable Market, Served Addressable Market and Target Market
 
-  The DreamSpot team identified its markets as follow:
+  The DreamSpot team identified its markets as follows (all data refer to USD):
 
-  - *Total Addressable Market* - it consider the global outbound turism market, namely the flow of travelers worldwide. In 2024 the market size sood at approximately USD \$8879.2 bilion;
+  - *Total Addressable Market* - it consider the global outbound tourism market, namely the flow of travelers worldwide. In 2024 the market size generated revenues for approximately $dollar$8879.2 billion;
 
     Source: #link("https://www.businessresearchinsights.com/market-reports/outbound-tourism-market-118431")[businessresearchinsights.com]
 
-  - *Served Addressable Market* - it reduces TAM concentrating in the USA outbound travel market. The DreamSpot group chose to focus on this country due to its influence in the travel market; moreover, since the application is designed in english, the choice of USA increase the amount of end users. The USA outbound travel market is projected to rise up to USD \$293.3 bilion in 2025;
+  - *Served Addressable Market* - it reduces TAM concentrating in the USA outbound travel market. The DreamSpot group chose to focus on this country due to its influence in the travel market; moreover, since the application is designed in english, the choice of USA increase the amount of end users. The USA outbound travel market is projected to rise up to $dollar$293.3 billion in 2025;
 
     Source: #link("https://www.futuremarketinsights.com/reports/united-states-outbound-travel-market")[futuremarketinsights.com]
 
-  - *Target Market* - the DreamSpot team's target market corresponds to USA citizens, who are use to travel, in the age between 35 and 54 years old, as validated using interviews. Approximately 35% of travelers accounts for the target age, hence valuating to USD 102.7 bilion.
+  - *Target Market* - the DreamSpot team's target market corresponds to USA citizens, who are use to travel, in the age between 35 and 54 years old, as validated using interviews. Approximately 35% of travelers accounts for the target age, hence valuating to 102.7 billion.
 
     Source: #link("https://novacancynews.com/u-s-millennials-most-likely-to-take-spend-more-on-vacations-this-year-next/")[novacancynews.com]
+
+In general, finding information about the travel market was more difficult than expected: although it's true than a plethora of information and market reports for this market is available on the Internet, a big portion of them are accessible only under payment of a costly subscription and/or fee. Example of these are: //Insert some of the links we could not use
+
+Moreover, recent and accurate data about US travelers age demonstrated to be difficult to find: most of them result to be not freely available, inaccurate and/or outdated (e.g. #link("https://www.bls.gov/opub/ted/2003/nov/wk1/art02.htm")[bls.gov] /*Insert other links*/)
 
   == Competitors analysis
 
