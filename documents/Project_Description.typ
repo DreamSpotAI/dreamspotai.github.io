@@ -268,6 +268,7 @@
   - *web site* - since the majority of travelers organize their trips using a computer, because of screens size and more flexibility of browsers, a web site is provided with all features necessary for setting up the journey;
 
   - *web application* or *mobile application* - after completing the organization process, all information are easily accessible on mobile devices which are more often used during travels.
+
   */
 
   The scope of the AI tool is to provide suggestions about prices, locations, and transport, not to complete purchases. This action would require partnerships with several companies for flights and accommodations booking, and public services such as public transportation and museums. Therefore, links for finalizing the purchases should be supplied throughout the journey organization process.
@@ -320,6 +321,8 @@
   - *unlock* the *documents' organization functionality* for another travel *every 10 other people* that *join* the platform using a referral link/code connected to the user's personal account.
 
   The platform also provides *two possible travel-based premium packets* for travel lovers, which *includes* *document organization* functionalities and an *ad-free* experience: the *first plan* allows the use of the mentioned benefits for a *travel not longer than one week* in exchange of *$dollar$1,99*, while the *second one* allows to retain the benefits for a *travel longer than a week* at the cost of *$dollar$3.49*. *Free users*, who we plan to be the vast majority of end users, will be *financed* by a portion of the revenue of the *advertisements*.
+
+  Free-users can access, even without need of connection, past conversations and already completed travels, but cannot access the documents organization feature and three advertisement banners will be displayed in the chatbot interface.
 
   = Market size, trends and competition
 
