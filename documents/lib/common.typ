@@ -36,7 +36,7 @@
   }
 }
 
-#let firstPage(title, imageList: true, attachmentList: true) = {
+#let firstPage(title, imageList: true, attachmentList: true, studentName: false) = {
   set page(
     margin: (top: 0pt, left: 0pt, right: 0pt, bottom: 0pt)
   )
@@ -49,19 +49,39 @@
   align(bottom + center)[$copyright$2025 The DreamSpot team]*/
 
   grid(
-  columns: (35%, 65%),
-  [#rect(fill: orange, width: 100%, height: 49%)],
-  grid.cell(inset: (x: 2em, y: 1em))[
-    #v(2em)
-    #align(center)[#image("../assets/img/mage--preview-circle-fill.svg", width: 20%)]
-    #v(-1em)
-    #align(center)[#text(size: 3em)[*DreamSpot*]]
-    #align(center)[#v(-1.8em)#text(size: 1em)[*Close your eyes, we map the magic*]]
-  ],
-  [#move(dy: -1pt)[#rect(height: 47%, width: 100%,fill: orange)]],
-  grid.cell(align: right+top, inset: (x: 2em))[#text(3em)[#title]],
-  grid.cell()[#place(dy: -2pt)[#rect(height: 5%, width: 100%,fill: orange)]],
-  grid.cell(align: center+horizon)[$copyright$2025 The DreamSpot team]
+    columns: (35%, 65%),
+
+    [#rect(fill: orange, width: 100%, height: 49%)],
+    grid.cell(inset: (x: 2em, y: 1em))[
+      #v(2em)
+      #align(center)[#image("../assets/img/mage--preview-circle-fill.svg", width: 20%)]
+      #v(-1em)
+      #align(center)[#text(size: 3em)[*DreamSpot*]]
+      #align(center)[#v(-1.8em)#text(size: 1em)[*Close your eyes, we map the magic*]]
+    ],
+    [#move(dy: -1pt)[#rect(height: 47%, width: 100%,fill: orange)]],
+    grid.cell(inset: (x: 2em))[#align(right+top)[#text(3em)[#title]]
+      #v(2em), 
+      #table(
+        stroke: none,
+        table.vline(x: 1, start: if studentName {0} else {1}, stroke: orange),
+        columns: (45%,auto),
+        align: (x,y) => {
+          if(x==0) {
+            right
+          } else {
+            left
+          }
+        },
+        table.cell(if studentName {[*Student*]} else {}),
+        table.cell(if studentName {[Name (StudentId)]} else {}),
+        [*DreamSpot team members*],[Andrea Precoma (267071)],
+        [],[Andrea Jesus Soranzo Mendez (267339)],
+        [], [Matteo Schievano (265989)],
+      )
+    ],
+    grid.cell()[#place(dy: -2pt)[#rect(height: 5%, width: 100%,fill: orange)]],
+    grid.cell(align: center+horizon)[$copyright$2025 The DreamSpot team]
 )
 
   counter(page).update(1)

@@ -7,9 +7,29 @@
   date: auto,
 )
 
-#firstPage([*Business idea \ report*])
+#firstPage([*Business idea \ report*], studentName: true)
 
 #doc("Business idea report")[
+
+  = Introduction
+
+  During the course of years, thanks to better economic conditions and the higher income, people started to travel around the world.
+
+  Currently, in 2025, the travel market is one of the most profitable market, but it has a problem: the trip organization.
+
+  Thanks to the Internet, organize a travel became easier than before: nowadays there is no need, for most of the travels, to involve a 3#super("rd") party agency that organize all for us, browse the web is sufficient to get all of the needed information and book the entire travel, sometimes without needing to even call the hotel.
+
+  But the Internet evolved, millions of websites that do the same manual work of research exist, sometimes without giving the cheapest option or providing confusing and outdated data.
+ 
+  Additionally, the relevant number of travel-related websites can easily cause boredom and fatigue on the user, who has to read the majority of them trying to understand useful tips about his/her travel, often fighting against inconvenient cookie pop-ups.
+
+  Finally, organizing all of the documents, like bookings, train tickets, plane tickets and museum entry passes, can easily became a mess, especially when the user will need those document during the travel.
+
+  Our idea is DreamSpot, an all-in-one platform that, with the help of Artificial Intelligence, will guide the user into creating his/her very personal travel by providing suggestions, feasible modification and adequate accommodations.
+
+  The platform will be supported by non-intrusive advertisement banners in order to be freely accessible by everyone: users can decide to pay a small per-travel fee in order to enjoy a advertisement-free experience and the possibility to quickly organize all of the travel documents.
+
+  In the following chapter, the DreamSpot team will discuss more in detail the exploitable problem, the possible customers, the problem-customer-solution validation and the other market and project related activities discussed during the course.
 
   = Problem and Customers
 
@@ -68,18 +88,14 @@
     [#socialLink(type: "yt",res: "https://www.youtube.com/@zanetravel") #socialLink(type: "ig",res: "https://www.instagram.com/zane.jpegs/")],
     [Zane Travel, pseudonym for Zane Sensenig, is a popular content creator who shared its travels to Japan, Korea, the Philippines, India, the United States of America and many others with its 138.000 worldwide subscribers],
 
-    [Humansafari],
-    [#socialLink(type: "yt",res: "https://www.youtube.com/@safariumano") #socialLink(type: "ig",res: "https://www.instagram.com/humansafari/")],
-    [HumanSafari, also known as Nicolò Balini, is a popular Italian travel influencer with over a million subscribers on YouTube, where he shared his experience in both well-known countries and less attractive ones, like the Democratic People's Republic of Korea.],
-
-    [Abroad in Japan],
-    [#socialLink(type: "yt",res: "https://www.youtube.com/abroadinjapan") #socialLink(type: "ig",res: "https://www.instagram.com/abroadinjapan/")],
-    [Abroad in Japan is a popular YouTube channel created by the British Chris Broad. He's one of the most important foreign content creators in Japan],
-
     [Currently Hannah],
     [#socialLink(type: "yt",res: "https://www.youtube.com/@CurrentlyHannah") #socialLink(type: "ig",res: "https://www.instagram.com/currently.hannah/")],
     [Currently Hannah is a YouTube channel with over 561.000 subscribers mainly centered in Japan but also with content regarding Taiwan and Australia.],
   )
+
+  Other additional potential influencers can be found in the #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#api")[Report Annex document].
+
+  #pagebreak()
 
   === Recommenders
 
@@ -203,37 +219,7 @@
 
   The team initially started the validation process by conducting interviews on young adults: these are interviews 1 to 7. Some of them partially confuted the initial customers hypothesis: see @pivoting for more detailed information.
 
-  Here will be reported a link to each one of the interviews for the reader's convenience, among with a summary of the key points of each interview.
-
-  #table(
-    columns: (15%, 40%, 45%),
-    stroke: black,
-    align: (x, y) => {
-      if (x == 0 or x==1) {
-        center + horizon
-      } else {
-        left
-      }
-    },
-    table.header([*Interview*], [*Target and outcome*], [*Key Points*]),
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i1")[Interview #1]], [Young adults, Positive], [Long time to organize, Difficult to keep track of documents],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i2")[Interview #2]], [Young adults, Positive], [Information research difficult, Like to personalize travels, Search for cheapest option, Difficult to keep track of documents],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i3")[Interview #3]], [Young adults, Negative], [Not difficult to search for information, Finding information does not require lot of time, Easy to keep track of documents],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i4")[Interview #4]], [Young adults, Negative], [Not difficult to search for information even for cheap accommodations, Finding information does not require lot of time, Easy to manage documents],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i5")[Interview #5]], [Young adults, Negative], [Not difficult to search for information, Finding information does not require lot of time, Easy to keep track of documents],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i6")[Interview #6]], [Young adults, Positive], [Difficult to find information, Searched for cheapest option, Finding information could be difficult, Difficult to keep track of documents],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i7")[Interview #7]], [Young adults, Negative], [Not interested into making itineraries: prefers to delegate, Finding information not difficult, Cheapest option is not a requirement, Nowadays keeping track of documents it is easy],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i8")[Interview #8]], [Adults, Positive], [Love to personalize itineraries but research process takes time, searching the cheapest option is difficult, No difficulties in keeping track of documents],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i9")[Interview #9]], [Adults, Positive], [Difficult to find information, Difficult to find promotions, Lot of time required, Difficult to keep track of documents],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i10")[Interview #10]], [Adults, Positive], [Search for cheapest option, Difficult to search information, Could require time to organize trip, Easy to keep track of documents],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i11")[Interview #11]], [Adults, Negative], [Not difficult to search for information even for cheap accommodations, Not much time required, Easy to keep track of information],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i12")[Interview #12]], [Adults, Positive], [Not difficult to find information but activity requires lot of time, Could be difficult to keep track of documents for long travels.],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i13")[Interview #13]], [Adults, Positive], [Finding information is boring and could not show all possibilities, Costs are a problem, Can require some time due to boring process, Document organization could be difficult],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i14")[Interview #14]], [Adults, Positive], [Organizing information could be difficult and time used could be optimize, Document organization could be time-consuming (not efficient)],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i15")[Interview #15]], [Adults, Positive], [Information research process is boring and difficult if not done properly trip could became a loss of money, No difficulties in organizing documents],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i16")[Interview #16]], [Adults, Positive], [Searching information and organization processes require time, Difficult to organize documents],
-    [#link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i7")[Interview #17]], [Adults, Positive], [Searching information could be more efficient: can require some time, Not difficult to organize documents.],
-  )
+  A table containing a brief summary of the outcome and key points of the interview are retrievable from the #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#iok")[Report Annex document].
 
   === Pivoting <pivoting>
 
@@ -250,6 +236,16 @@
   As for the customers and problem validation, the solution validation has also been conducted with the help of the *lean method*.
 
   == Solution analysis
+
+  #figure(
+    grid(
+      columns: (50%,50%),
+      column-gutter: 1em,
+      [#image("assets/img/main.jpg")],
+      [#image("assets/img/docs.jpg")],
+    ),
+    caption: [Sketches of the platform],
+  )
 
   The platform will consist of a chatbot powered by Artificial Intelligence (AI) technology, which will have the purpose of guiding the user throughout the process of setting up his or her travel by comparing prices, providing suggestions, and proposing itineraries, automatically providing the user with the cheapest available options in accordance with the travel plan, therefore saving time and money.
 
@@ -310,7 +306,7 @@
 
   The DreamSpot team deeply analyzed a suitable *Business Model* for the platform that will be discussed in the following section.
 
-  == Business Model Canva and Business Model Patterns
+  == Business Model Canvas and Business Model Patterns
 
   The _ingredients_, which can be viewed on the first attachment to this document (#link(label("at1"))[#text(fill: orange)[Attachment 1]]), of the _recipe_ reflect two important Business Model Patterns: the *Multi-Sided Platform* and *Freemium Business Model*.
 
@@ -323,9 +319,11 @@
   The platform also provides *two possible travel-based premium packets* for travel lovers, which *includes* *document organization* functionalities and an *ad-free* experience: the *first plan* allows the use of the mentioned benefits for a *travel not longer than one week* in exchange of *$dollar$2,99*, while the *second one* allows to retain the benefits for a *travel longer than a week* at the cost of *$dollar$4.99*. 
   Customers will be also able to *get a premium plan* in *electronic stores* and *supermarkets* for *$dollar$ 3.99* and *$dollar$ 5.99* respectfully.
 
+  The reasons around this particular type of revenue model are explained in @fp.
+
   *Free users*, who we plan to be the vast majority of end users, will be *financed* by a portion of the revenue of the *advertisements*.
 
-  Free-users can access, even without need of connection, past conversations and already completed travels, but cannot access the documents organization feature and three advertisement banners will be displayed in the chatbot interface.
+  All users can access, even without need of connection, past conversations and already completed travels, but cannot access the documents organization feature and three advertisement banners will be displayed in the chatbot interface.
 
   = Market size, trends and competition
 
@@ -335,21 +333,23 @@
 
   The DreamSpot team identified its markets as follows (all data refer to USD):
 
-  - *Total Addressable Market* - it consider the global outbound tourism market, namely the flow of travelers worldwide. In 2024 the market size generated revenues for approximately $dollar$8879.2 billion;
+  - *Total Addressable Market* - it consider the global outbound tourism market, namely the flow of travelers worldwide. In 2024 this market generated revenues for approximately $dollar$8879.2 billion;
 
     Source: #link("https://www.businessresearchinsights.com/market-reports/outbound-tourism-market-118431")[businessresearchinsights.com]
 
-  - *Served Addressable Market* - it reduces TAM concentrating in the USA outbound travel market. The DreamSpot group chose to focus on this country due to its influence in the travel market; moreover, since the application is designed in english, the choice of USA increase the amount of end users. The USA outbound travel market is projected to rise up to $dollar$293.3 billion in 2025;
+  - *Served Addressable Market* - the DreamSpot team decided to consider the USA outbound travel market due to this country's influence in the travel market; moreover, since the application is in english, the choice of the States allows to acquire costumers without having language related problems. The USA outbound travel market is projected to generate earnings up to $dollar$293.3 billion in 2025;
 
     Source: #link("https://www.futuremarketinsights.com/reports/united-states-outbound-travel-market")[futuremarketinsights.com]
 
-  - *Target Market* - the DreamSpot team's target market corresponds to USA citizens, who are use to travel, in the age between 35 and 54 years old, as validated using interviews. Approximately 35% of travelers accounts for the target age, hence valuating to 102.7 billion.
+  - *Target Market* - the DreamSpot team's target market corresponds to USA citizens, who use to travel, between 35 and 54 years old, as validated using interviews in @interviews. Approximately 35% of travelers accounts for the target age, hence valuating the maximum possible earnings to $dollar$102.7 billion.
 
     Source: #link("https://novacancynews.com/u-s-millennials-most-likely-to-take-spend-more-on-vacations-this-year-next/")[novacancynews.com]
 
-In general, finding information about the travel market was more difficult than expected: although it's true than a plethora of information and market reports for this market is available on the Internet, a big portion of them are accessible only under payment of a costly subscription and/or fee. Example of these are: //Insert some of the links we could not use
+In general, finding information about the travel market was more difficult than expected: although it's true than a plethora of information and market reports for this market is available on the Internet, a big portion of them are accessible only under payment of a costly subscription and/or fee. /*Example of these are: //Insert some of the links we could not use*/
 
 Moreover, recent and accurate data about US travelers age demonstrated to be difficult to find: most of them result to be not freely available, inaccurate and/or outdated (e.g. #link("https://www.bls.gov/opub/ted/2003/nov/wk1/art02.htm")[bls.gov] /*Insert other links*/)
+
+Finally, according to #link("https://www.technavio.com/report/travel-market-industry-analysis?utm_source=prnewswire&utm_medium=pressrelease&utm_campaign=aitrend1_1_report_week05_2025&utm_content=IRTNTR71431")[technavio.com], the travel market size is suggested to increase by $dollar$2860.2 billion between 2023 and 2028, therefore qualify as a significant growing market.
 
   == Competitors analysis
 
@@ -373,21 +373,23 @@ Moreover, recent and accurate data about US travelers age demonstrated to be dif
 
   Other possible competitors, which doesn't have reliable usage data, can be found in the #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#apc")[Report Annex document].
 
-    
+  #pagebreak()
 
   == Unique Selling Point
+
+  = Financial plan <fp>
 
 
   //Under here put attachments
 
   #horizontalSection(
-    "Attachment 1: Business Model Canva",
+    "Attachment 1: Business Model Canvas",
     labeltxt: "at1",
     [
       #figure(
         kind: image,
         image("assets/business-model.svg", width: 97%),
-        caption: "Business Model Canva"
+        caption: "Business Model Canvas"
     )
   ]
   )
