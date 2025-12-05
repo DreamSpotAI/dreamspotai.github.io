@@ -371,7 +371,7 @@ Moreover, recent and accurate data about US travelers age demonstrated to be dif
     [#link("https://www.stippl.io/")[*Stippl*]], [An app that, with the help of an AI, helps the trip organization. Can partially organize bookings and travels], [AI functionality seems to be limited according to provided screenshot of the app. According to third party, offline visualization is not eligible for free users], [The app count more than 100 thousand downloads from the #link("https://play.google.com/store/apps/details?id=com.stippl.stippl&hl=it")[Play Store], achieving about 4.5 out of 5 stars on both the Play Store and the #link("https://apps.apple.com/it/app/stippl-pianificatore-viaggio/id6443617088")[App Store]],
   )
 
-  Other possible competitors, which doesn't have reliable usage data, can be found in the #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#apc")
+  Other possible competitors, which doesn't have reliable usage data, can be found in the #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#apc")[Report Annex document].
 
     
 
