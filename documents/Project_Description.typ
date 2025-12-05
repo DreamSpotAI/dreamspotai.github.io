@@ -347,7 +347,7 @@
 
 In general, finding information about the travel market was more difficult than expected: although it's true than a plethora of information and market reports for this market is available on the Internet, a big portion of them are accessible only under payment of a costly subscription and/or fee. /*Example of these are: //Insert some of the links we could not use*/
 
-Moreover, recent and accurate data about US travelers age demonstrated to be difficult to find: most of them result to be not freely available, inaccurate and/or outdated (e.g. #link("https://www.bls.gov/opub/ted/2003/nov/wk1/art02.htm")[bls.gov] /*Insert other links*/)
+Moreover, recent and accurate data about US travelers age demonstrated to be difficult to find: most of them result to be not freely available, inaccurate and/or outdated (e.g. #link("https://www.bls.gov/opub/ted/2003/nov/wk1/art02.htm")[bls.gov] /*Insert other links*/).
 
 Finally, according to #link("https://www.technavio.com/report/travel-market-industry-analysis?utm_source=prnewswire&utm_medium=pressrelease&utm_campaign=aitrend1_1_report_week05_2025&utm_content=IRTNTR71431")[technavio.com], the travel market size is suggested to increase by $dollar$2860.2 billion between 2023 and 2028, therefore qualify as a significant growing market.
 

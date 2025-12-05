@@ -61,7 +61,7 @@
     ],
     [#move(dy: -1pt)[#rect(height: 47%, width: 100%,fill: orange)]],
     grid.cell(inset: (x: 2em))[#align(right+top)[#text(3em)[#title]]
-      #v(2em), 
+      #v(4em) 
       #table(
         stroke: none,
         table.vline(x: 1, start: if studentName {0} else {1}, stroke: orange),
