@@ -1,6 +1,6 @@
 export enum SupportedFileType {
-    PDF,
-    TXT
+    PDF = "PDF",
+    TXT = "TXT"
 }
 
 interface File {
@@ -9,7 +9,7 @@ interface File {
     filePath: String,
 }
 
-type DocProp = {
+export type DocProp = {
     file: File,
     location: String,
     startDate: Date,
@@ -18,7 +18,7 @@ type DocProp = {
 
 export function Doc({ file, location, startDate, endDate }: DocProp) {
     return (
-        <div className="flex flex-row gap-3 w-full p-5 bg-fuchsia-500">
+        <div className="flex flex-row gap-3 w-full p-5 bg-green">
             <img className="h-full aspect-auto object-cover" src={
                 (() => {
                     switch (file.fileType) {

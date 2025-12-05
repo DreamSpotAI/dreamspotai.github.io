@@ -7,5 +7,5 @@ export const meta: Route.MetaFunction = ({ }: Route.MetaArgs) => [
 ]
 
 export default function Home() {
-    return <Documents userName={"Laura"} destination={"Japan"} />;
+    return <Documents userName={"Laura"} />;
 }

@@ -50,25 +50,25 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <p className="text-center">Laura</p>
           </div>
         </header>
-        <div className="flex flex-row flex-1 gap-3 mb-2">
+        <div className="flex flex-row flex-1 gap-3 mb-2 min-h-0">
           <aside className="basis-3xs">
             <h2 className=" text-center font-bold tracking-[1] text-2xl mb-5">MENU</h2>
             <nav>
               <ul className="flex flex-col gap-5">
                 <li className="w-full">
                   <NavLink className={({ isActive }) => (
-                    isActive ? "w-full block px-5 py-3 bg-amber-500" : "w-full block px-5 py-3 bg-amber-200"
+                    isActive ? "w-full block px-5 py-3 bg-purple" : "w-full block px-5 py-3 bg-green"
                   )} to="/" end>Home</NavLink>
                 </li>
                 <li className="w-full">
                   <NavLink className={({ isActive }) => (
-                    isActive ? "w-full block px-5 py-3 bg-amber-500" : "w-full block px-5 py-3 bg-amber-200"
+                    isActive ? "w-full block px-5 py-3 bg-purple" : "w-full block px-5 py-3 bg-green"
                   )} to="/documents">Documents</NavLink>
                 </li>
               </ul>
             </nav>
           </aside>
-          <main className="flex flex-1 flex-col gap-5 bg-amber-500 p-5">
+          <main className="flex flex-1 flex-col gap-5 p-5">
             {children}
           </main>
         </div>

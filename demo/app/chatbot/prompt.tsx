@@ -1,10 +1,11 @@
 import botPng from "./assets/bot.png"
 
-type PromptProps = {
+export type PromptProps = {
     isUser: Boolean
+    text: String
 }
 
-export function Prompt({ isUser }: PromptProps) {
+export function Prompt({ isUser, text }: PromptProps) {
     return (
         <div className={
             isUser ? "w-full flex flex-row-reverse gap-2" : "w-full flex flex-row gap-2"
@@ -13,8 +14,9 @@ export function Prompt({ isUser }: PromptProps) {
                 isUser ? "/user.jpeg" : botPng
             } alt="User icon" />
             <div className={
-                isUser ? "w-2/5 min-h-40 bg-gray-400 ml-auto" : "w-2/5 min-h-40 bg-gray-400"
+                isUser ? "w-2/5 p-2 min-h-40  ml-auto bg-gray" : "w-2/5 p-2 min-h-40 bg-gray"
             }>
+                <p className="overflow-y-hidden break-all">{text}</p>
             </div>
         </div>
     )
