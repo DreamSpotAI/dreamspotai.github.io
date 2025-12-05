@@ -371,22 +371,9 @@ Moreover, recent and accurate data about US travelers age demonstrated to be dif
     [#link("https://www.stippl.io/")[*Stippl*]], [An app that, with the help of an AI, helps the trip organization. Can partially organize bookings and travels], [AI functionality seems to be limited according to provided screenshot of the app. According to third party, offline visualization is not eligible for free users], [The app count more than 100 thousand downloads from the #link("https://play.google.com/store/apps/details?id=com.stippl.stippl&hl=it")[Play Store], achieving about 4.5 out of 5 stars on both the Play Store and the #link("https://apps.apple.com/it/app/stippl-pianificatore-viaggio/id6443617088")[App Store]],
   )
 
-  Other possible competitors, which doesn't have reliable usage data:
+  Other possible competitors, which doesn't have reliable usage data, can be found in the #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#apc")
 
-    #table(
-    columns: (20%,40%,40%),
-    align: (x,y) => {
-      if y==0 {
-        center+horizon
-      } else {
-        left
-      }
-    },
-    table.header([*Name or Type*], [*Advantages*], [*Disadvantages*]),
-    [#link("https://www.canva.com/trip-planner-ai/")[*Canva Planner*]], [A functionality of canvas that helps with trip planning. Offer collaboration functionalities], [Limited on the personalization and does not guide the user into the organization. Limited to a maximum of 50 organizations. No documents organization functionality],
-    [#link("https://www.aiplanner.ai/about")[*Aiplanner*]], [Web service that offer ai-powered trip organization services], [No document organization functionality. Usage is token-limited, therefore, personalization could be limited for free users.],
-    [#link("https://wonderplan.ai/")[*Wonderplan*]], [Free app for organizing trip using the help of AI], [As described by the developers themselves, the app could become partially or entirely premium at some point. Offline availability of trip data is possible via downloadable pdf only. No documents organization functionality is available.],
-  )
+    
 
   == Unique Selling Point
 
