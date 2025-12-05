@@ -316,11 +316,14 @@
 
   Regarding the *Multi-Sided Platform*, DreamSpot heavily relies on two main groups of users: *free users* and *advertisers*. *Advertisers* have the capabilities, using our platform, to target the right audience for travel-related advertisements. The interest of businesses choosing our platform to display commercials really depends on the growing number of free users.
 
-  A subsidization of free users will be required; therefore, the DreamSpot team decided to:
-  - offer users the possibility to use the *documents' organization functionality* for the *first travel* completely *free of charge*;
-  - *unlock* the *documents' organization functionality* for another travel *every 10 other people* that *join* the platform using a referral link/code connected to the user's personal account.
+  A *subsidization* of *free users* will be *required*; therefore, the DreamSpot team decided to offer, *for the first three year of activity*, to create a *lottery* of *premium plan*: *10 winners will be eligible* of a *free one-week premium plan* (see below).
 
-  The platform also provides *two possible travel-based premium packets* for travel lovers, which *includes* *document organization* functionalities and an *ad-free* experience: the *first plan* allows the use of the mentioned benefits for a *travel not longer than one week* in exchange of *$dollar$1,99*, while the *second one* allows to retain the benefits for a *travel longer than a week* at the cost of *$dollar$3.49*. *Free users*, who we plan to be the vast majority of end users, will be *financed* by a portion of the revenue of the *advertisements*.
+  Moreover, to give people the *possibility* to *easily try* the platform, *users* have the possibility to *start organizing* the trip *without needing to create an account* (up to *30 minutes per session*),
+
+  The platform also provides *two possible travel-based premium packets* for travel lovers, which *includes* *document organization* functionalities and an *ad-free* experience: the *first plan* allows the use of the mentioned benefits for a *travel not longer than one week* in exchange of *$dollar$2,99*, while the *second one* allows to retain the benefits for a *travel longer than a week* at the cost of *$dollar$4.99*. 
+  Customers will be also able to *get a premium plan* in *electronic stores* and *supermarkets* for *$dollar$ 3.99* and *$dollar$ 5.99* respectfully.
+
+  *Free users*, who we plan to be the vast majority of end users, will be *financed* by a portion of the revenue of the *advertisements*.
 
   Free-users can access, even without need of connection, past conversations and already completed travels, but cannot access the documents organization feature and three advertisement banners will be displayed in the chatbot interface.
 
