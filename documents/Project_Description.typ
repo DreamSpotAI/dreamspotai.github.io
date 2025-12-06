@@ -306,7 +306,7 @@
 
   The DreamSpot team deeply analyzed a suitable *Business Model* for the platform that will be discussed in the following section.
 
-  == Business Model Canvas and Business Model Patterns
+  == Business Model Canvas and Business Model Patterns <bmc>
 
   The _ingredients_, which can be viewed on the first attachment to this document (#link(label("at1"))[#text(fill: orange)[Attachment 1]]), of the _recipe_ reflect two important Business Model Patterns: the *Multi-Sided Platform* and *Freemium Business Model*.
 
@@ -314,10 +314,10 @@
 
   A *subsidization* of *free users* will be *required*; therefore, the DreamSpot team decided to offer, *for the first three year of activity*, to create a *lottery* of *premium plan*: *10 winners will be eligible* of a *free one-week premium plan* (see below).
 
-  Moreover, to give people the *possibility* to *easily try* the platform, *users* have the possibility to *start organizing* the trip *without needing to create an account* (up to *30 minutes per session*),
+  Moreover, to give people the *possibility* to *easily try* the platform, *users* have the possibility to *start organizing* the trip *without needing to create an account* (up to *40 minutes per session*),
 
   The platform also provides *two possible travel-based premium packets* for travel lovers, which *includes* *document organization* functionalities and an *ad-free* experience: the *first plan* allows the use of the mentioned benefits for a *travel not longer than one week* in exchange of *$dollar$2,99*, while the *second one* allows to retain the benefits for a *travel longer than a week* at the cost of *$dollar$4.99*. 
-  Customers will be also able to *get a premium plan* in *electronic stores* and *supermarkets* for *$dollar$ 3.99* and *$dollar$ 5.99* respectfully.
+  Customers will be also able to *get a premium plan* in *electronic stores* and *supermarkets* for *$dollar$ 3.99* and *$dollar$ 5.99* respectively.
 
   The reasons around this particular type of revenue model are explained in @fp.
 
@@ -331,7 +331,7 @@
 
   == Total Addressable Market, Served Addressable Market and Target Market
 
-  The DreamSpot team identified its markets as follows (all data refer to USD):
+  The DreamSpot team identified its markets as follows (all data refer to US$dollar$):
 
   - *Total Addressable Market* - it consider the global outbound tourism market, namely the flow of travelers worldwide. In 2024 this market generated revenues for approximately $dollar$8879.2 billion;
 
@@ -365,7 +365,7 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
       }
     },
     table.header([*Name or Type*], [*Advantages*], [*Disadvantages*], [*Usage data*]),
-    [*Travel agencies*], [Easy way to organize a trip, various different packages are available. All of the process requires minimal action from the customer], [An additional and substantial commission is often required. Personalization of travels is minimal. Documents management is in charge of the customer], [According to #link("https://www.statista.com/topics/1859/travel-agencies/?srsltid=AfmBOoqdj3TlMLr1yeSE2LtSR8YyRBV8ORWGmjtmHotDJAweutI18mSV#topicOverview")[statista.com], the worldwide market of travel agencies generates 654 billion USD, according to #link("https://deepmarketinsights.com/vista/insights/travel-agency-market/united-states")[deepmarket insights.com], in the US the market has generated 145.43 billion USD.],
+    [*Travel agencies*], [Easy way to organize a trip, various different packages are available. All of the process requires minimal action from the customer], [An additional and substantial commission is often required. Personalization of travels is minimal. Documents management is in charge of the customer], [According to #link("https://www.statista.com/topics/1859/travel-agencies/?srsltid=AfmBOoqdj3TlMLr1yeSE2LtSR8YyRBV8ORWGmjtmHotDJAweutI18mSV#topicOverview")[statista.com], the worldwide market of travel agencies generates 654 billion US$dollar$, according to #link("https://deepmarketinsights.com/vista/insights/travel-agency-market/united-states")[deepmarket insights.com], in the US the market has generated 145.43 billion US$dollar$.],
     [*Traditional AI chatbots* \ e.g. ChatGPT], [Provides useful suggestions about possible travel destination and places to visit, also day by day. Able to personalize the whole trip.], [Can be unoptimized for travels and provides not useful suggestion. Does not guide between all of the steps needed for the travel. No documents organization functionality], [According to #link("https://openai.com/index/how-people-are-using-chatgpt/")[openai.com], as for September 15#super("th"), 2025 ChatGPT alone count 700 million weekly active users],
     [#link("https://wanderlog.com/")[*Wanderlog*]], [Specialized travel organization app with AI functionality. Allow to insert documents and collaboration functionality are also available], [Trip optimization functionality and offline data visualization are limited to the paid version], [The app has been downloaded more than 1 million times from the #link("https://play.google.com/store/apps/details?id=com.wanderlog.android&hl=it&pli=1")[Play Store], achieving an evaluation of 4.9 out 5 stars on both the Google Play store and the #link("https://apps.apple.com/it/app/wanderlog-viaggi-pianificatore/id1476732439")[App Store]],
     [#link("https://www.stippl.io/")[*Stippl*]], [An app that, with the help of an AI, helps the trip organization. Can partially organize bookings and travels], [AI functionality seems to be limited according to provided screenshot of the app. According to third party, offline visualization is not eligible for free users], [The app count more than 100 thousand downloads from the #link("https://play.google.com/store/apps/details?id=com.stippl.stippl&hl=it")[Play Store], achieving about 4.5 out of 5 stars on both the Play Store and the #link("https://apps.apple.com/it/app/stippl-pianificatore-viaggio/id6443617088")[App Store]],
@@ -379,6 +379,18 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
 
   = Financial plan <fp>
 
+  In order to understand the economic feasibility of the platform, the DreamSpot team firstly analyzed the total number of users which will use the platform, assuming that each user will travel 1 or 2 times per year (an average of 1.5 travels per user). The team calculated to gain a total of 2000 active users the first year, with 200 of them buying a premium plan. Specifically, a maximum of 20 people will buy the premium plan in-store thanks to a collaboration with local supermarkets and electronic stores, which in exchange, will get a 7% and 20% commission respectively, value decided based on where end users are more prone to see the product. \
+  For the remaining premium users, the DreamSpot team predicts about 189 _one week subscriptions_ and 81 _over one week subscriptions_ sold directly from the platform, accounting for a 2% credit card commission.
+
+  As described in @bmc, one of the Business Model Patterns followed was the *Multi-Sided Platform*: as a result, the main income comes from advertisements. Thanks to the #link("https://adsense.google.com/start/")[Google AdSense revenue calculator], the DreamSpot team estimated a total earning of US$dollar$0.014 per advertisement. The total amount is calculated considering three banners in the main page and a total of three 40-minutes session per free user, also accounting for an advertisement rotation of 5 minutes. Also, non-registered users that take advantage of the 40-minutes trial should also be taken into account: some of them will most probably limit the trial to about 15 minutes, therefore, it's safe to assume that 3 of these users will generate the same amount of money of a standard free-user.
+
+  Premium income, described in @bmc, have been chosen based on the minimum amount tha made the total cash out financiable by investors on the first year. To partially cover the initial printing of physical premium cards, which code will be printed in the customers' receipt to allow reuse of the cards, in-store purchases are increased.
+
+  Regarding relevant costs, the DreamSpot team decided to #link("www.marcaria.com/register/trademarkprices.asp?country=USA")[register its trademark] in the US and subsidize users with a lottery of 10 premium plans. Moreover, Google Gemini fees have been approximated to US$dollar$ 0.00075 per request, approximating about 200 requests per conversation.
+
+  The in-depth details can be found in the @at2[Second Attachment] and in the #link("https://docs.google.com/spreadsheets/d/1Rc_sHanO0h0rdAr99SsFMEA_FSssRvdaj7XuofoJZyE/edit?gid=157659979#gid=157659979")[spreadsheet].
+
+  With an initial investment of US$dollar$10251, the platform will became profitable from the third year, estimating a US$dollar$21722 EBITDA.
 
   //Under here put attachments
 
@@ -391,6 +403,14 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
         image("assets/business-model.svg", width: 97%),
         caption: "Business Model Canvas"
     )
+  ]
+  )
+
+  #horizontalSection(
+    "Attachment 2: Financial Plan",
+    labeltxt: "at2",
+    [
+     TODO
   ]
   )
 
