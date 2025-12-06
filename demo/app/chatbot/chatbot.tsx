@@ -1,8 +1,11 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { Prompt, type PromptProps } from "./prompt";
 
+const GEMINI_PROXY_URL = "http://localhost:3001/api/chat";
+
 export function Chatbot() {
   const [inputValue, setInputValue] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const [prompts, setPrompts] = useState<PromptProps[]>([
   ]);
@@ -12,6 +15,59 @@ export function Chatbot() {
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [prompts]);
+
+  const fetchGeminiResponse = async (userMessage: string) => {
+    const thinkingPrompt: PromptProps = {
+      text: "...",
+      isUser: false,
+      isThinking: true,
+    };
+
+    setPrompts((prev) => [...prev, thinkingPrompt]);
+    setIsLoading(true);
+
+    try {
+      const apiResponse = await fetch(GEMINI_PROXY_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ message: userMessage }),
+      });
+
+      if (!apiResponse.ok) {
+        throw new Error(`Errore HTTP: ${apiResponse.status}`);
+      }
+
+      const data = await apiResponse.json();
+
+      const botResponseText = data.response || "";
+
+      const botResponse: PromptProps = {
+        text: botResponseText,
+        isUser: false,
+      };
+
+      setPrompts((prev) => {
+        const updated = prev.filter(p => !p.isThinking);
+        return [...updated, botResponse];
+      });
+
+    } catch (error) {
+      const errorResponse: PromptProps = {
+        text: "Error getting the response",
+        isUser: false,
+      };
+      setPrompts((prev) => {
+        const updated = prev.filter(p => !p.isThinking);
+        return [...updated, errorResponse];
+      });
+
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -27,6 +83,8 @@ export function Chatbot() {
     setPrompts((prev) => [...prev, newPrompt]);
 
     setInputValue("");
+
+    fetchGeminiResponse(trimmedInput);
   };
 
 
@@ -50,6 +108,8 @@ export function Chatbot() {
           type="text"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
+          disabled={isLoading}
+          placeholder={isLoading ? "Waiting for response..." : "Write your prompt..."}
         />
         <button
           type="submit"

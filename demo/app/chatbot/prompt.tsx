@@ -3,6 +3,7 @@ import botPng from "./assets/bot.png"
 export type PromptProps = {
     isUser: Boolean
     text: String
+    isThinking?: Boolean
 }
 
 export function Prompt({ isUser, text }: PromptProps) {
