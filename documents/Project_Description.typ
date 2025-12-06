@@ -384,11 +384,11 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
 
   As described in @bmc, one of the Business Model Patterns followed was the *Multi-Sided Platform*: as a result, the main income comes from advertisements. Thanks to the #link("https://adsense.google.com/start/")[Google AdSense revenue calculator], the DreamSpot team estimated a total earning of US$dollar$0.014 per advertisement. The total amount is calculated considering three banners in the main page and a total of three 40-minutes session per free user, also accounting for an advertisement rotation of 5 minutes. Also, non-registered users that take advantage of the 40-minutes trial should also be taken into account: some of them will most probably limit the trial to about 15 minutes, therefore, it's safe to assume that 3 of these users will generate the same amount of money of a standard free-user.
 
-  Premium income, described in @bmc, have been chosen based on the minimum amount tha made the total cash out financiable by investors on the first year. To partially cover the initial printing of physical premium cards, which code will be printed in the customers' receipt to allow reuse of the cards, in-store purchases are increased.
+  Premium pricing, described in @bmc, have been chosen based on the minimum amount tha made the total cash out financiable by investors on the first year. To partially cover the initial printing of physical premium cards, which code will be printed in the customers' receipt to allow reuse of the cards, in-store purchases are increased.
 
   Regarding relevant costs, the DreamSpot team decided to #link("www.marcaria.com/register/trademarkprices.asp?country=USA")[register its trademark] in the US and subsidize users with a lottery of 10 premium plans. Moreover, Google Gemini fees have been approximated to US$dollar$ 0.00075 per request, approximating about 200 requests per conversation.
 
-  The in-depth details can be found in the @at2[Second Attachment] and in the #link("https://docs.google.com/spreadsheets/d/1Rc_sHanO0h0rdAr99SsFMEA_FSssRvdaj7XuofoJZyE/edit?gid=157659979#gid=157659979")[spreadsheet].
+  The in-depth details can be found in the @at2[Attachment] and in the #link("https://docs.google.com/spreadsheets/d/1Rc_sHanO0h0rdAr99SsFMEA_FSssRvdaj7XuofoJZyE/edit?gid=157659979#gid=157659979")[spreadsheet].
 
   With an initial investment of US$dollar$10251, the platform will became profitable from the third year, estimating a US$dollar$21722 EBITDA.
 
