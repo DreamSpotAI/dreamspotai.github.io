@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { Prompt, type PromptProps } from "./prompt";
 
-import { textToHtml } from "./utils";
+import { textToHtml, prompt, response, requestAppend } from "./utils";
 
 const GEMINI_PROXY_URL = "http://localhost:3001/api/chat";
 
@@ -19,6 +19,8 @@ export function Chatbot() {
   }, [prompts]);
 
   const fetchGeminiResponse = async (userMessage: string) => {
+    const competeMsg = userMessage + requestAppend;
+
     const thinkingPrompt: PromptProps = {
       text: "...",
       isUser: false,
@@ -29,21 +31,26 @@ export function Chatbot() {
     setIsLoading(true);
 
     try {
-      const apiResponse = await fetch(GEMINI_PROXY_URL, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ message: userMessage }),
-      });
-
-      if (!apiResponse.ok) {
-        throw new Error(`Errore HTTP: ${apiResponse.status}`);
+      let botResponseText = ""
+      if (userMessage === prompt) {
+        botResponseText = textToHtml(response) || "";
       }
+      else {
+        const apiResponse = await fetch(GEMINI_PROXY_URL, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ message: competeMsg }),
+        });
 
-      const data = await apiResponse.json();
+        if (!apiResponse.ok) {
+          throw new Error(`Errore HTTP: ${apiResponse.status}`);
+        }
 
-      const botResponseText = textToHtml(data.response) || "";
+        const data = await apiResponse.json();
+        botResponseText = textToHtml(data.response) || "";
+      }
 
       const botResponse: PromptProps = {
         text: botResponseText,
@@ -55,7 +62,6 @@ export function Chatbot() {
         return [...updated, botResponse];
       });
 
-      console.log(data)
 
     } catch (error) {
       const errorResponse: PromptProps = {
@@ -87,9 +93,8 @@ export function Chatbot() {
     setPrompts((prev) => [...prev, newPrompt]);
 
     setInputValue("");
-    // Propose a 10 - day itinerary, from the 3rd of January, for me and my wife to South Korea, including flight and hotel recommendations.We want to visit historic museums and major cities for shopping, with no city - to - city travel exceeding 2 hours.End each day at a fancy dinner restaurant not far from the place we are visiting.
-    const requestAppend = " Prioritize comfort while minimizing costs as much as possible. give me all the direct links to book things and prices and give me the direct links to book things so i can avoid research on my own"
-    fetchGeminiResponse(trimmedInput + requestAppend);
+
+    fetchGeminiResponse(trimmedInput);
   };
 
 
