@@ -6,6 +6,6 @@ export const meta: Route.MetaFunction = ({ }: Route.MetaArgs) => [
     { name: "description", content: "Access all your saved documents" },
 ]
 
-export default function Home() {
+export default function Document() {
     return <Documents userName={"Laura"} />;
 }

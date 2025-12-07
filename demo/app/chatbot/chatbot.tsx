@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { Prompt, type PromptProps } from "./prompt";
 
+import { textToHtml } from "./utils";
+
 const GEMINI_PROXY_URL = "http://localhost:3001/api/chat";
 
 export function Chatbot() {
@@ -41,7 +43,7 @@ export function Chatbot() {
 
       const data = await apiResponse.json();
 
-      const botResponseText = data.response || "";
+      const botResponseText = textToHtml(data.response) || "";
 
       const botResponse: PromptProps = {
         text: botResponseText,
@@ -52,6 +54,8 @@ export function Chatbot() {
         const updated = prev.filter(p => !p.isThinking);
         return [...updated, botResponse];
       });
+
+      console.log(data)
 
     } catch (error) {
       const errorResponse: PromptProps = {
@@ -83,14 +87,15 @@ export function Chatbot() {
     setPrompts((prev) => [...prev, newPrompt]);
 
     setInputValue("");
-
-    fetchGeminiResponse(trimmedInput);
+    // Propose a 10 - day itinerary, from the 3rd of January, for me and my wife to South Korea, including flight and hotel recommendations.We want to visit historic museums and major cities for shopping, with no city - to - city travel exceeding 2 hours.End each day at a fancy dinner restaurant not far from the place we are visiting.
+    const requestAppend = " Prioritize comfort while minimizing costs as much as possible. give me all the direct links to book things and prices and give me the direct links to book things so i can avoid research on my own"
+    fetchGeminiResponse(trimmedInput + requestAppend);
   };
 
 
   return (
     <>
-      <div className="flex flex-col gap-5 w-full h-full flex-1 p-5 overflow-y-scroll">
+      <div className="flex flex-col gap-20 w-full h-full flex-1 p-5 overflow-y-scroll">
         {prompts.length === 0 ? (
           <div className="text-center mt-30 p-5 bg-purple">
             <p className="font-bold text-4xl">WHERE DO YOU WANT TO GO?</p>

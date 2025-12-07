@@ -6,7 +6,7 @@ type UserDetailsProp = {
     destination?: String
 }
 
-export function Documents({ userName, destination = "somewhere" }: UserDetailsProp) {
+export function Documents({ userName, destination = "" }: UserDetailsProp) {
     const [documents, setDocuments] = useState<DocProp[]>([
     ]);
 
@@ -40,7 +40,7 @@ export function Documents({ userName, destination = "somewhere" }: UserDetailsPr
 
     return (
         <>
-            <h3 className="text-3xl text-center font-bold mb-10 bg-purple p-5">{userName}&apos; journey to {destination} documents</h3>
+            <h3 className="text-3xl text-center font-bold mb-10 bg-purple p-5">{userName}&apos; journey {destination != "" ? "to " + destination : ""} documents</h3>
             <div className="flex flex-1 flex-col gap-3">
                 {documents.map((doc, index) => (
                     <Doc

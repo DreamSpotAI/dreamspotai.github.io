@@ -13,11 +13,11 @@ export function Prompt({ isUser, text }: PromptProps) {
         }>
             <img className="w-15 h-15 object-cover rounded-full" src={
                 isUser ? "/user.jpeg" : botPng
-            } alt="User icon" />
+            } />
             <div className={
-                isUser ? "w-2/5 p-2 min-h-40  ml-auto bg-gray" : "w-2/5 p-2 min-h-40 bg-gray"
+                isUser ? "w-1/2 p-2 min-h-40  ml-auto bg-gray" : "w-1/2 p-2 min-h-40 bg-gray"
             }>
-                <p className="overflow-y-hidden break-all">{text}</p>
+                <p className="overflow-y-hidden break-all" dangerouslySetInnerHTML={{ __html: text }}></p>
             </div>
         </div>
     )
