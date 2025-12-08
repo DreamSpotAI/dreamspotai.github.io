@@ -363,6 +363,7 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
 
   Premium pricing, described in @bmc, has been chosen based on the minimum amount that made the total cash out financiable by investors in the first year. To partially cover the initial printing of physical premium cards, which code will be printed in the customers' receipt to allow reuse of the cards, in-store purchases are increased.
 
+  // TODO: tutto giusto ma scollegato (prek)
   Regarding relevant costs, the DreamSpot team decided to #link("www.marcaria.com/register/trademarkprices.asp?country=USA")[register its trademark] in the US and subsidize users with a lottery of 10 premium plans. Moreover, Google Gemini fees have been approximated to US $dollar$0,00075 per request, approximating about 200 requests per complete travel planning procedure.
 
   The in-depth details can be found in @at2[Attachment] and in the #link("https://docs.google.com/spreadsheets/d/1Rc_sHanO0h0rdAr99SsFMEA_FSssRvdaj7XuofoJZyE/edit?gid=157659979#gid=157659979")[spreadsheet].
