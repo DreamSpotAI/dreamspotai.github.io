@@ -109,8 +109,8 @@ export const response2: string = 'For your 10-day journey to South Korea from Ja
 
 const format: string = response1
 
-export const prompt1: string = "I want to go on a journey of 10 days from the 3rd of January, with my wife to South Korea, i want to find the cheapest flights"
-export const prompt2: string = "i want to find the cheapest accomodation"
+export const prompt1: string = "I'd like to go on a journey to South Korea of 10 days starting from the 3rd of January. I will be with my wife, therefore I want to find the cheapest flights."
+export const prompt2: string = "What about cheap accomodations?"
 
 
 export const requestAppend = " Prioritize comfort while minimizing costs as much as possible. give me all the direct links to book things and prices and give me the direct links to book things so i can avoid research on my own. Dont give me any disclamers and limit your response to 500 words. And limit yourself to responding to my specific request. follow this type of format: " + format
