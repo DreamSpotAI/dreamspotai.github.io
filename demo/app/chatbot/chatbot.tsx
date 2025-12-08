@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { Prompt, type PromptProps } from "./prompt";
 
-import { textToHtml, prompt, response, requestAppend } from "./utils";
+import { textToHtml, prompt1, prompt2, response1, response2, requestAppend } from "./utils";
 
 const GEMINI_PROXY_URL = "http://localhost:3001/api/chat";
 
@@ -32,8 +32,12 @@ export function Chatbot() {
 
     try {
       let botResponseText = ""
-      if (userMessage === prompt) {
-        botResponseText = textToHtml(response) || "";
+      if (userMessage === prompt1) {
+        await new Promise(resolve => setTimeout(resolve, 4000));
+        botResponseText = textToHtml(response1) || "";
+      } else if (userMessage == prompt2) {
+        await new Promise(resolve => setTimeout(resolve, 4000));
+        botResponseText = textToHtml(response2) || "";
       }
       else {
         const apiResponse = await fetch(GEMINI_PROXY_URL, {
@@ -50,6 +54,7 @@ export function Chatbot() {
 
         const data = await apiResponse.json();
         botResponseText = textToHtml(data.response) || "";
+        console.log(data)
       }
 
       const botResponse: PromptProps = {
