@@ -354,16 +354,14 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
   #pagebreak()
 
   == Unique Selling Point
-
+  
   By analyzing our competitors, it appears clear to the DreamSpot team that the key characteristics of our platform are the following:
 
   - truly personalized travels, with plenty of space for personalization that is accurate regarding the conversation topic (a characteristic that values our service over traditional travel agencies, chatbots and #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#apc")[other competitors]);
-  - offline access to past journey organizations, without needing to pay a subscription (this is what truly differentiates DreamSpot from our most relevant competitors, #link("https://wanderlog.com/")[*Wanderlog*] and #link("https://www.stippl.io/")[*Stippl*]);
-  - complete travel document organization functionality (which is not available on #link("https://www.stippl.io/")[*Stippl*] or #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#apc")[other competitors]).
+  - offline access to past journey organizations, without needing to pay a subscription (this is what truly differentiates DreamSpot from our most relevant competitors, #link("https://wanderlog.com/")[Wanderlog] and #link("https://www.stippl.io/")[Stippl]);
+  - complete travel document organization functionality (which is not available on #link("https://www.stippl.io/")[Stippl] or #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#apc")[other competitors]).
 
-  Additionally, our platform prices, described in @bmc and @fp, are not a subscription, unlike what happens with #link("https://wanderlog.com/pro")[*Wanderlog*], who charge US $dollar$39,99 for one year of premium service.
-  
-  Moreover, it does not limit the quality and/or quantity of the interactions with the chatbot, something that #link("https://wanderlog.com/pro")[*Wanderlog*] or #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#apc")[other competitors] do.
+  Additionally, our platform prices, described in @bmc and @fp, are not a subscription, unlike what happens with #link("https://wanderlog.com/pro")[Wanderlog], who charge US $dollar$39,99 for an entire year. Moreover, it does not limit the quality and/or quantity of the interactions with the chatbot, something that #link("https://wanderlog.com/pro")[Wanderlog] or #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#apc")[other competitors] do.
 
   While it is realistically not difficult to add the functionality that makes our service unique, it also means, for our main competitors, significantly changing their revenue model, which can be quite difficult.
 
@@ -371,7 +369,7 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
 
   #align(center)[#text(size: 1.3em)[*Your journeys, truly always with you*]]
 
-  The first part underlines the personalization capabilities and the strong relation of suggestions with the conversation topic, while the second half highlights the free, offline access and the optional document organization functionality.
+  The first part underlines the personalization capabilities and the strong relation of suggestions with the conversation topic, while the second half highlights the free and offline access, in addition to the optional document organization functionality.
 
   = Financial plan <fp>
 
