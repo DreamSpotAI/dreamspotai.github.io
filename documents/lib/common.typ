@@ -107,7 +107,7 @@
   }
   outline(depth: 4, title: text(size: 2em)[#v(1em) Index #v(1em)], indent: 1em)
   if(imageList==true) {
-    text(size: 2em)[#v(0.5em) *Images* #v(1em)]
+    text(size: 2em)[#v(0.5em) *Images* #v(0.5em)]
     set text(1.2em)
     show grid: set block(spacing: 0.5em)
     context {
@@ -126,7 +126,7 @@
   }
 
   if(attachmentList==true) {
-    text(size: 2em)[#v(1em) *Attachments* #v(1em)]
+    text(size: 2em)[#v(0.5em) *Attachments* #v(0.5em)]
     show grid: set block(spacing: 0.5em)
     context {
       let chapters = query(heading.where(level: 1))
@@ -146,10 +146,6 @@
       }
     }
   }
-
-/*
-
-*/
 
 }
 

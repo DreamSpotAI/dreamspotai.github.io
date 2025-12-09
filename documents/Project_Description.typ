@@ -388,12 +388,22 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
   ]
   )
 
+  = Attachment 2: Financial Plan <at2>
+
+  #figure(
+    image("assets/img/Plan2.png"),
+    caption: "Financial Plan"
+  )
+  
   #horizontalSection(
-    "Attachment 2: Financial Plan",
-    labeltxt: "at2",
+    "Attachment 3: Cumulated Cash Flow",
+    labeltxt: "at3",
     [
-     TODO
-  ]
+      #figure(
+        image("assets/img/cashFlow.svg", width: 95%),
+        caption: "Cumulated Cash Flow"
+      )
+    ]
   )
 
 ]
