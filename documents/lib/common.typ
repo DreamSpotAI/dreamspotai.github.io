@@ -57,7 +57,7 @@
       #align(center)[#image("../assets/img/mage--preview-circle-fill.svg", width: 20%)]
       #v(-1em)
       #align(center)[#text(size: 3em)[*DreamSpot*]]
-      #align(center)[#v(-1.8em)#text(size: 1em)[*Close your eyes, we map the magic*]]
+      #align(center)[#v(-1.8em)#text(size: 1em)[*Your journeys, truly always with you*]]
     ],
     [#move(dy: -1pt)[#rect(height: 47%, width: 100%,fill: orange)]],
     grid.cell(inset: (x: 2em))[#align(right+top)[#text(3em)[#title]]
