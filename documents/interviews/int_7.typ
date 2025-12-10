@@ -1,7 +1,7 @@
 // Me
 
 *Q: _How old are you?_*\
-*A:* I'm 22 years old.
+*A:* I'm 28 years old.
 #v(10pt)
 *Q: _Have you ever holiday-traveled in the past?_*\
 *A:* Well, it really depends on what you mean with "past". Before starting high school I actually traveled quite a bit with my family for vacations purposes. I remember traveling abroad to France (Paris and Disneyland specifically) and Austria, but also visiting a lot of cities in Italy, for example Catania, Rome and Genoa. After that I didn't travel a lot to be honest, just some small trips in Naples and Trieste.
