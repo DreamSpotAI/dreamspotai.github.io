@@ -149,6 +149,45 @@
 
 }
 
+#let linkList() = {
+  [
+    #heading(level: 1)[Sources]
+    The following external online resources have been used in the document:
+
+    #let bannedLink = ("..","dreamspotai.github.io", "<q3>","<q5>","<at1>")
+    #context {
+      let linkList = query(link)
+      let insertedLink = ()
+      for l in linkList {
+        let linkText = repr(l.dest)
+        let found = false
+        for bl in bannedLink {
+          if linkText.contains(bl) {
+            found = true
+          }
+        }
+        if (found==false and insertedLink.contains(linkText)==false) {
+          insertedLink.push(linkText)
+          let filteredLinkText = linkText.slice(1,linkText.len()-1)
+          [- #link(filteredLinkText)[#filteredLinkText]]
+        }
+      }
+    }
+  ]
+}
+
+#let verticalSection(title, labeltxt: str, body) = {
+  set heading(numbering: none)
+  [
+    #heading(level: 1)[#title]
+    #hide(
+      [#figure(kind: "hiddenFigure",supplement: "Hidden Figure",box(height: 0%)[ciao])#label(labeltxt)]
+    ) 
+  ]
+  v(-1em)
+  body
+}
+
 #let horizontalSection(title, labeltxt: str, body) = {
   set page(flipped: true)
   set heading(numbering: none)

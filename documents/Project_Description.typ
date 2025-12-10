@@ -1,4 +1,4 @@
-#import "lib/common.typ": doc, firstPage, socialLink, horizontalSection, orange
+#import "lib/common.typ": doc, firstPage, socialLink, horizontalSection, verticalSection, linkList, orange
 
 #set document(
   title: "DreamSpot - Business idea report",
@@ -389,8 +389,9 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
 
   The mentioned lottery (see @bmc) should also help in acquiring users.
 
-  //Under here put attachments
+  #linkList()
 
+  //Under here put attachments
   #horizontalSection(
     "Attachment 1: Business Model Canvas",
     labeltxt: "at1",
@@ -403,13 +404,17 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
   ]
   )
 
-  = Attachment 2: Financial Plan <at2>
-
-  #figure(
-    image("assets/img/Plan2.png"),
-    caption: "Financial Plan"
+  #verticalSection(
+    "Attachment 2: Financial Plan",
+    labeltxt: "at2",
+    [
+       #figure(
+        image("assets/img/Plan2.png"),
+        caption: "Financial Plan"
+      )
+    ]
   )
-  
+ 
   #horizontalSection(
     "Attachment 3: Cumulated Cash Flow",
     labeltxt: "at3",

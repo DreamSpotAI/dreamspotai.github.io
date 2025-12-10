@@ -1,4 +1,4 @@
-#import "lib/common.typ": doc, firstPage, socialLink, horizontalSection, orange
+#import "lib/common.typ": doc, firstPage, socialLink, horizontalSection, linkList, orange
 
 #set document(
   title: "DreamSpot - Report Annex",
@@ -88,4 +88,6 @@
     [#link("https://www.aiplanner.ai/about")[*Aiplanner*]], [Web service that offer ai-powered trip organization services], [No document organization functionality. Usage is token-limited; therefore, personalization could be limited for free users],
     [#link("https://wonderplan.ai/")[*Wonderplan*]], [Free app for organizing trips using the help of AI], [As described by the developers themselves, the app could become partially or entirely premium at some point. Offline availability of trip data is possible via downloadable pdf only. No document organization functionality is available],
   )
+
+  #linkList()
 ]
