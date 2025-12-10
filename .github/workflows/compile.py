@@ -13,7 +13,7 @@ compileBlackList: list[str] = ["lib", "assets","interviews","notes","DreamSpot"]
 customName: dict = {
     "Project_Description.pdf": "Report.pdf",
     "Idea_interview.pdf": "Interviews.pdf",
-    "Additional_Info.typ": "Annex.pdf",
+    "Additional_Info.pdf": "Annex.pdf",
 }
 
 def searchTypstFiles() -> list:
