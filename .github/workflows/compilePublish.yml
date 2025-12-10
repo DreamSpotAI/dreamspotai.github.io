@@ -11,7 +11,7 @@ jobs:
       - name: Install typst for file compiling
         uses: typst-community/setup-typst@v4
         with:
-          typst-version: 0.13.x
+          typst-version: 0.14.x
       - name: Install Python for script execution
         run: sudo apt update && sudo apt install python3
       - name: Create output folder
