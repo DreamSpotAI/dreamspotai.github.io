@@ -92,25 +92,25 @@ ul {
     padding: 0;
     columns: 2;
     column-gap: 1em;
+    width: max-content;
+    margin: 0 auto;
 }
 
 li {
-    position: relative;
-    list-style-type: none;
-    width: 30%;
+    list-style: none;
+    display: flex;
+    align-items: center;
 }
 
 li::before {
     content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%); /* vertical centering */
     width: 24px;
     height: 24px;
     background-image: url("../img/mdi--file-pdf-box.svg");
-    background-repeat: no-repeat;
     background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+    position: static;
 }
 
 div#githubBadge {
