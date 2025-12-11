@@ -389,7 +389,7 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
 
   The mentioned lottery (see @bmc) should also help in acquiring users.
 
-  #include("personal.typ")
+  #include("Personal.typ")
 
   #linkList()
 
