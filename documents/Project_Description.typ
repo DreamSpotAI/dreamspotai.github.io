@@ -409,7 +409,7 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
     labeltxt: "at2",
     [
        #figure(
-        image("assets/img/Plan2.png"),
+        image("assets/img/Plan2.png", width: 120%),
         caption: "Financial Plan"
       )
     ]
