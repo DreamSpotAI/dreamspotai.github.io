@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any
 
 fileBasePath:str = "documents"
-compileBlackList: list[str] = ["lib", "assets","interviews","notes","DreamSpot"]
+compileBlackList: list[str] = ["lib", "assets","interviews","notes","DreamSpot","Personal"]
 customName: dict = {
     "Project_Description.pdf": "Report.pdf",
     "Idea_interview.pdf": "Interviews.pdf",
