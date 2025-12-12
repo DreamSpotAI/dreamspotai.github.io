@@ -320,9 +320,9 @@
 
     Source: #link("https://www.futuremarketinsights.com/reports/united-states-outbound-travel-market")[futuremarketinsights.com]
 
-  - *Target Market* - the DreamSpot team's target market corresponds to USA citizens, who are used to traveling and are between 35 and 54 years old, as validated using interviews in @interviews. Approximately 35% of travelers account for the target age, hence valuing the maximum possible earnings at $dollar$102,7 billion.
+  - *Target Market* - the DreamSpot team's target market corresponds to USA citizens, who are used to traveling and are between 35 and 54 years old, as validated using interviews in @interviews. Approximately 35% of travelers account for the target age, hence valuing the maximum possible earnings at $dollar$102,7 billion. This percentage is also partially confirmed by another 2024 survey of people between 30 and 44 years old, which stated that 19% of participants travel annually both nationally and internationally.
 
-    Source: #link("https://novacancynews.com/u-s-millennials-most-likely-to-take-spend-more-on-vacations-this-year-next/")[novacancynews.com]
+    Source: #link("https://novacancynews.com/u-s-millennials-most-likely-to-take-spend-more-on-vacations-this-year-next/")[novacancynews.com], #link("https://www.statista.com/statistics/1482433/leisure-travel-frequency-by-age-us/?srsltid=AfmBOopsAzhHH2Y7RbM_4_S4FTdE2Dc4x1k0pYkzDqsJu6-AVHfsaDLH")[statista.com]
 
 In general, finding information about the travel market was more difficult than expected: although it is true that a plethora of information and market reports for this market are available on the Internet, a big portion of them are accessible only under payment of a costly subscription and/or fee. /*Example of these are: //Insert some of the links we could not use*/Moreover, recent and accurate data about US travelers age has proven to be difficult to find; most of them turn out to be not freely available, inaccurate, and/or outdated (e.g., #link("https://www.bls.gov/opub/ted/2003/nov/wk1/art02.htm")[bls.gov]/*Insert other links*/).
 
@@ -411,7 +411,7 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
     labeltxt: "at2",
     [
        #figure(
-        image("assets/img/Plan2.png", width: 120%),
+        image("assets/img/Plan2.png", width: 115%),
         caption: "Financial Plan"
       )
     ]
