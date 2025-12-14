@@ -114,7 +114,9 @@
   This qualitative research was aimed at gathering detailed insights and authentic feedback to ensure that our solution addresses a real and pressing need among our final users.
   Before actively starting the interview process, we rigorously prepared by studying techniques to maximize the information extracted from our interviewees and wrote a small interview guide with a structured list of *core* questions.
   
-  Additionally, we considered recruiting participants that best represented our user personas to ensure meaningful insights. This preparation helped us to exactly understand what to ask and how to create a comfortable environment conducive to honest and comprehensive responses, ultimately enhancing the quality and usefulness of the interviews.
+  Additionally, we considered recruiting participants that best represented our target to ensure meaningful insights. This preparation helped us to exactly understand what to ask and how to create a comfortable environment conducive to honest and comprehensive responses, ultimately enhancing the quality and usefulness of the interviews.
+
+  To consider the hypothesis validated, about 75% of interviews should be positive.
 
   === Questions
 
@@ -199,7 +201,6 @@
     [Assess whether managing travel tickets caused user frustration and validate our hypothesis for the necessity of a feature that simplifies ticket handling.],
   )
 
-  // TODO: bello ma specificare con asterisco --> scritto nel documento delle interview
   These are the most important questions, but to keep the conversation flowing naturally, we also include some minor questions to help the person feel more comfortable, encouraging honesty and potentially leading them to share additional insights. See the #link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf")[interviews document] for additional information.
 
   #pagebreak()
@@ -212,7 +213,6 @@
 
   As described in @interviews, the DreamSpot team firstly decided to validate the customer sector of young adults (see @end_users for a more detailed description).
 
-  // TODO: non si può fare 2 vs 4?
   While the #link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i1")[first], #link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i2")[second] and #link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i6")[sixth] conducted interviews confirmed our customers and problems hypotheses, suggesting that this kind of potential customers could be affected by the analyzed issue, the #link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i3")[third], #link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i4")[fourth], #link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i5")[fifth] and #link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf#i7")[seventh] interviews underlined how this was not present in the majority of young adults. This led the team to partially correct the initial hypotheses about customers by understanding that young adults could not be potential customers of the platform; therefore, they are removed from the end-users group (see @end_users) and family members are partially reconsidered as potential economic buyers (see @eb).
 
   = Solution
