@@ -13,15 +13,15 @@
 
   = Introduction
 
-  During the course of years, thanks to better economic conditions and the higher income, people started to travel around the world. Currently, in 2025, the travel market is one of the most profitable markets, but it has a problem: the trip organization.
+  During the course of years, thanks to better economic conditions and higher incomes, people started to travel around the world. Currently, in 2025, the travel market is one of the most profitable markets, but it has a problem: the trip organization.
 
-  Thanks to the Internet, organizing a travel has become easier than before: nowadays there is no need for most of the travels to involve a 3#super("rd") party agency that organizes all for them; browsing the web is sufficient to get all the needed information and book the entire travel, sometimes without the necessity to even call the hotel. However the Internet evolved, millions of websites that do the same manual work of research exist, sometimes without giving the cheapest option or providing confusing and outdated data. Additionally, the relevant number of travel-related websites can easily cause boredom and fatigue in the user, who has to read the majority of them trying to understand useful tips about his/her travel, often fighting against inconvenient cookie pop-ups. Finally, organizing all the documents, such as bookings, train tickets, plane tickets, museum entry passes, etc., can easily become difficult to manage, especially when the user will need those documents during the travel.
+  Thanks to the Internet, organizing a travel has become easier than before: nowadays there is no need, for most of the travels, to involve a 3#super("rd") party agency that organizes all; browsing the web is sufficient to get all the needed information and book the entire travel, sometimes without the necessity to even call the hotel. However the Internet evolved, millions of websites that do the same manual work of research exist, sometimes without giving the cheapest option or providing confusing and outdated data. Additionally, the relevant number of travel-related websites can easily cause boredom and fatigue in the user, who has to read the majority of them trying to understand useful tips about his/her travel, often fighting against inconvenient pop-ups. Finally, organizing all the documents, such as bookings, train tickets, plane tickets, museum entry passes, etc., can easily become difficult to manage, especially when the user will need those documents during the travel.
 
   Our idea is DreamSpot, an all-in-one platform that, with the help of Artificial Intelligence, will guide the user into creating his/her very personal travel by providing suggestions, feasible modifications and adequate accommodations.
 
   The platform will be supported by non-intrusive advertisement banners in order to be freely accessible by everyone: users can decide to pay a small per-travel fee in order to enjoy an advertisement-free experience and the possibility to quickly organize all the travel documents.
 
-  In the following chapter, the DreamSpot team will discuss in more detail the exploitable problem, the possible customers, the problem-customer-solution validation, and the other market and project-related activities discussed during the course.
+  In the following chapters, the DreamSpot team will discuss in more details the exploitable problem, the possible customers, the problem-customer-solution validation, and the other market and project-related activities discussed during the course.
 
   = Problem and Customers
 
@@ -31,11 +31,11 @@
 
   == Problem analysis
 
-  When talking about holiday travels, both short (2 to 7 days) and long (from 2 to about 3 weeks), some platforms that look for the best prices of flight tickets already exist, as well as those for hotel bookings. Some websites or forums are also well focused on presenting points of interest and most popular attractions. However, searching all information on your own becomes very dispersive and frustrating. The *latent problem* our solution is willing to solve is about inefficient preparation of holiday travels. Specifically, the problem can be more accurately described in the following "sub-problems" which a customer could selectively have:
+  When talking about holiday travels, both short (2 to 7 days) and long (from 2 to about 3 weeks), some platforms that look for the best prices of flight tickets already exist, as well as those for hotel bookings. Some websites and forums are also well focused on presenting points of interest and most popular attractions. However, searching all information on your own becomes very dispersive and frustrating. The *latent problem* our solution is willing to solve is about inefficient preparation of holiday travels. Specifically, the problem can be more accurately described in the following "sub-problems" which a customer could selectively have:
 
   - *time saving and personalization* - thus the process of searching for information on the Internet could require a significant amount of time, especially when looking for points of interest in places the traveler is unfamiliar with, often causing boredom and various difficulties. Moreover, sometimes it is difficult for the user to compare alternatives or creating a personalized itinerary;
 
-  - *money saving* - scheduling the trip day-by-day can be particularly challenging, especially if finding the cheaper option is an important requirement for the user (for example, it could be difficult for the user to organize the desired trip while a certain museum offers special discounts); 
+  - *money saving* - scheduling the trip day-by-day can be particularly challenging, especially if finding the cheapest option is an important requirement for the user (for example, it could be difficult for the user to organize the desired trip while a certain museum offers special discounts); 
 
   - *information organization* - because of the relevant quantity of bookings, ticket reservations and other similar services, keeping track of everything can result in a difficult task to achieve efficiently. Users may struggle to find an efficient way to organize all the various data.
 
@@ -47,7 +47,7 @@
 
   One of the most important topics to address when developing a business idea is identifying the potential customers. Without them, the idea cannot have any possibility of success, since customers are the people who ultimately determine the economic success of the to-be-developed platform.
 
-  Besides *end users*, also *influencers*, *recommenders*, *economic buyers* and *decision makers* are customers of a product/serive. Each one of them has to be carefully identified in order to maximize the possibilities of success.
+  Besides *end users*, also *influencers*, *recommenders*, *economic buyers* and *decision makers* are customers of a product/service. Each one of them has to be carefully identified in order to maximize the possibilities of success.
 
   After careful considerations, the DreamSpot team identified the following customers described in the respective chapters.
 
@@ -59,7 +59,7 @@
 
   === Influencers
 
-  Influencers, defined as people who can particularly influence people's buying decisions, could be national and international content creators on various social networks (e.g. YouTube, Instagram, etc.) whose main covered topic is centered on travel suggestions and abroad experiences.
+  Influencers, defined as people who can particularly influence people's buying decisions, could be content creators on various social networks (e.g. YouTube, Instagram, etc.) whose main covered topic is centered on travel suggestions and abroad experiences.
 
   Some examples are provided below:
 
@@ -116,7 +116,7 @@
   
   Additionally, we considered recruiting participants that best represented our target to ensure meaningful insights. This preparation helped us to exactly understand what to ask and how to create a comfortable environment conducive to honest and comprehensive responses, ultimately enhancing the quality and usefulness of the interviews.
 
-  To consider the hypothesis validated, about 75% of interviews should be positive.
+  To consider the hypothesis validated, about 75% of interviews (per type of user) should be positive.
 
   === Questions
 
@@ -207,7 +207,7 @@
 
   === Interviews <interviews>
 
-  All the made interviews are accessible on the #link("https://dreamspotai.github.io/")[project's website], where an _ad hoc_ #link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf")[document] can be found. The team initially started the validation process by conducting interviews on young adults, reported in interviews 1 to 7. Some of them partially confuted the initial customers hypothesis (see @pivoting for more detailed information). A table containing a brief summary of the outcome and key points of the interview are retrievable from the #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#iok")[Report Annex document].
+  All the made interviews are accessible on the #link("https://dreamspotai.github.io/")[project's website], where an _ad hoc_ #link("https://dreamspotai.github.io/compiled/CompiledPDF/Interviews.pdf")[document] can be found. The team initially started the validation process by conducting interviews on young adults, reported in interviews 1 to 7. Some of them partially confuted the initial customers hypothesis (see @pivoting for more detailed information). A table containing a brief summary of the outcome and key points of the interview is retrievable from the #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#iok")[Report Annex document].
 
   === Pivoting <pivoting>
 
@@ -269,13 +269,13 @@
 
   In order to validate the proposed solution, the DreamSpot team decided to create a #link("https://dreamspotai.github.io/DreamSpot/")[landing page]#footnote(link("https://dreamspotai.github.io/DreamSpot/")).
 
-  In order to adequately present the product to a wide number of people, the website is divided into three sections:
+  To adequately present the product to a wide number of people, the website is divided into three sections:
   
   - *idea section* - a section with a brief comparison between the normal procedure end-users usually adopt to create an itinerary and the simpler method made available by our service;
   
   - *gallery section* - a section that briefly presents, thanks to the presence of a three images carousel, the expected developed product complete with all functionalities. In other words, a sort of *sketch* of the future platform;
 
-  - *form section* - a section in which users can let us know their interest in the project by simply pressing a button. Additionally, people can also choose to send their email in order to be kept updated about the platform development. This functionality allows the DreamSpot team to separate users who might be interested in the product and people who are really interested in the platform.
+  - *form section* - a section in which users can let us know their interest in the project by simply pressing a button. Additionally, people can also choose to send their email in order to be kept updated about the platform development. This functionality allows the DreamSpot team to separate users who might be interested in the product from people who are really interested in the platform.
 
   The particular structure of the website guarantees that only interested people will eventually scroll until the last section, which also presents a publicly visible counter of people who manifested interest in the platform.
 
@@ -357,9 +357,9 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
   
   By analyzing our competitors, it appears clear to the DreamSpot team that the key characteristics of our platform are the following:
 
-  - truly personalized travels, with plenty of space for personalization that is accurate regarding the conversation topic (a characteristic that values our service over traditional travel agencies, chatbots and #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#apc")[other competitors]);
-  - offline access to past journey organizations, without needing to pay a subscription (this is what truly differentiates DreamSpot from our most relevant competitors, #link("https://wanderlog.com/")[Wanderlog] and #link("https://www.stippl.io/")[Stippl]);
-  - complete travel document organization functionality (which is not available on #link("https://www.stippl.io/")[Stippl] or #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#apc")[other competitors]).
+  - *truly personalized travels*, with plenty of space for personalization that is accurate regarding the conversation topic (a characteristic that values our service over traditional travel agencies, chatbots and #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#apc")[other competitors]);
+  - *offline access to past journey organizations*, without needing to pay a subscription (this is what truly differentiates DreamSpot from our most relevant competitors, #link("https://wanderlog.com/")[Wanderlog] and #link("https://www.stippl.io/")[Stippl]);
+  - *complete travel document organization* functionality (which is not available on #link("https://www.stippl.io/")[Stippl] or #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#apc")[other competitors]).
 
   Additionally, our platform prices, described in @bmc and @fp, are not a subscription, unlike what happens with #link("https://wanderlog.com/pro")[Wanderlog], who charge US $dollar$39,99 for an entire year. Moreover, it does not limit the quality and/or quantity of the interactions with the chatbot, something that #link("https://wanderlog.com/pro")[Wanderlog] or #link("https://dreamspotai.github.io/compiled/CompiledPDF/Annex.pdf#apc")[other competitors] do.
 
@@ -373,21 +373,21 @@ Finally, according to #link("https://www.technavio.com/report/travel-market-indu
 
   = Financial plan <fp>
 
-  In order to understand the economic feasibility of the platform, the DreamSpot team firstly analyzed the total number of users who will use the platform, assuming that each user will travel 1 or 2 times per year (an average of 1,5 travels per user). The team calculated to gain a total of 3300 active users the first year, with 330 of them buying a premium plan. Specifically, a maximum of 20 people will buy the premium plan in-store thanks to a collaboration with local supermarkets and electronic stores, which in exchange will get a 7% and 20% commission, respectively. Percentages are decided based on where end users are more prone to see the product. For the remaining premium users, the DreamSpot team predicts about 326 _one-week subscriptions_ and 139 _over-one-week subscriptions_ sold directly from the platform, accounting for a 2% credit card commission.
+  In order to understand the economic feasibility of the platform, the DreamSpot team firstly analyzed the total number of users who will use the platform, assuming that *each user will travel* 1 or 2 times per year (*an average of 1,5 travels* per user). The team calculated to gain a total of *3300 active users* the *first year*, with *330* of them *buying* a *premium plan*. Specifically, a maximum of 20 people will buy the premium plan in-store thanks to a collaboration with local supermarkets and electronic stores, which in exchange will get a 7% and 20% commission, respectively. Percentages are decided based on where end users are more prone to see the product. For the remaining premium users, the DreamSpot team predicts about 326 _one-week subscriptions_ and 139 _over-one-week subscriptions_ sold directly from the platform, accounting for a 2% credit card commission.
 
-  As described in @bmc, one of the Business Model Patterns followed was the *Multi-Sided Platform*; as a result, the main income comes from advertisements. Thanks to the #link("https://adsense.google.com/start/")[Google AdSense revenue calculator], the DreamSpot team estimated a total earning of US $dollar$0,014 per advertisement. The total amount is calculated considering three banners on the main page, a total of three 40-minute sessions per free user (estimated necessary to organize a trip), and a 5-minute rotation per advertisement. Furthermore, non-registered users that take advantage of the 40-minute trial should also be taken into account. Thus, roughly three of these users will generate the same amount of money as a standard free user.
+  As described in @bmc, one of the Business Model Patterns followed was the *Multi-Sided Platform*; as a result, the main income comes from advertisements. Thanks to the #link("https://adsense.google.com/start/")[Google AdSense revenue calculator], the DreamSpot team estimated a total *earning* of *US $dollar$0,014 per advertisement*. The total amount is calculated considering *three banners on the main page*, a total of *three 40-minute sessions per free user* (estimated necessary to organize a trip), and a *5-minute rotation* per advertisement. Furthermore, *non-registered users* that take advantage of the 40-minute trial *should also be taken into account*. Thus, roughly three of these users will generate the same amount of money as a standard free user.
 
   Premium pricing, described in @bmc, has been chosen based on the minimum amount that made the total cash out financeable by investors in the first year. To partially cover the initial printing of physical premium cards, whose code will be printed in the customers' receipt to allow reuse of the cards, in-store purchases are increased.
 
-  Regarding relevant costs, the DreamSpot team decided to #link("www.marcaria.com/register/trademarkprices.asp?country=USA")[register its trademark] in the US and subsidize users with a lottery of 10 premium plans. Another significant outcome consists of Google Gemini fees, which have been approximated to US $dollar$0,00075 per request. This price is multiplied by 300, estimation of requests for a complete travel planning procedure.
+  Regarding *relevant costs*, the DreamSpot team decided to #link("www.marcaria.com/register/trademarkprices.asp?country=USA")[register its *trademark*] in the US and *subsidize users with a lottery of 10 premium plans*. Another significant outcome consists of *Google Gemini fees*, which have been approximated to US $dollar$0,00075 per request. This price is multiplied by 300, estimation of requests for a complete travel planning procedure.
 
   The in-depth details can be found in @at2[Attachment] and in the #link("https://docs.google.com/spreadsheets/d/1Rc_sHanO0h0rdAr99SsFMEA_FSssRvdaj7XuofoJZyE/edit?gid=157659979#gid=157659979")[spreadsheet].
 
-  A marketing manager will be hired within the first two years to handle the marketing aspect. Moreover, since social media are so relevant nowadays, the DreamSpot team will establish partnerships with two influencers the first two years, and only one of them for the third year. This approach should guarantee for an increase in users; in particular, the team expects to reach 3300, 6000 and 10400 users, respectively, for the first, the second, and the third year. To handle the increase in users, a developer is planned to be hired in the third year.
+  *A marketing manager will be hired for the first two years* to handle the marketing aspect. Moreover, since social media are so relevant nowadays, *the DreamSpot team will establish partnerships with two influencers the first two years*, and only *one* of them for the *third year*. This approach should guarantee for an increase in users; in particular, the team expects to reach *3300*, *6000* and *10400* *users*, respectively, for the *first*, the *second*, and the *third year*. To handle the increase in users, a *developer* is planned to be *hired* in the *third year*.
   
-  Finally, with an initial investment of US $dollar$54.200, the platform will become profitable from the third year, estimating a US $dollar$15.032 EBITDA.
+  Finally, with an initial investment of US $dollar$54.200, the *platform will become profitable from the third year*, estimating a US $dollar$15.032 EBITDA.
 
-  The mentioned lottery (see @bmc) should also help in acquiring users.
+  The mentioned *lottery* (see @bmc) should also help in *acquiring users*.
 
   #include("Personal.typ")
 
